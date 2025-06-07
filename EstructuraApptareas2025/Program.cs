@@ -25,10 +25,18 @@ public class Circulo
         return 2 * Math.PI * radio; //Fórmula para calcular el perimetro de un circulo.
     }
 
-}
+
 
 // Clase Cuadrado para calcular el área y perimetro del cuadrado
 public class Cuadrado
+{
+    private int lado; // Atributo privado
+
+    //Constructor de la clase Círculo
+
+}
+   
+
 
 
 
