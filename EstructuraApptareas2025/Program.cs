@@ -11,6 +11,22 @@ public class Circulo
 
     //Constructor de la clase Círculo
     public Circulo(double radio)
+    ¨{
+        this.radio=radio
+
+    }
+    //Función para calcular el Área de Círculo
+    public double areaCirculo()
+    {
+        return Math.PI * radio * radio; //Fórmula para calcular el área del circulo.
+    }
+
+
+
+
+
+
+
 
 
 
