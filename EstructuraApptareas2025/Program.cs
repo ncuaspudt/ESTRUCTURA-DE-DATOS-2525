@@ -13,27 +13,22 @@ public class Circulo
     public Circulo(double radio)
     ¨{
         this.radio=radio
-
     }
     //Función para calcular el Área de Círculo
     public double areaCirculo()
     {
         return Math.PI * radio * radio; //Fórmula para calcular el área del circulo.
     }
-
-
-
-
-
-
-
-
-
-
-
-
+    //función para calcular el perímetro del Círculo
+    public double perimetroCirculo()
+    {
+        return 2 * Math.PI * radio; //Fórmula para calcular el perimetro de un circulo.
+    }
 
 }
+
+// Clase Cuadrado para calcular el área y perimetro del cuadrado
+public class Cuadrado
 
 
 
