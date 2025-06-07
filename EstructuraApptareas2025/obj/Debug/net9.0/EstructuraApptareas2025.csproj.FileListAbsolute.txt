@@ -1,0 +1,14 @@
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.exe
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.deps.json
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.runtimeconfig.json
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.dll
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.pdb
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.AssemblyInfoInputs.cache
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.AssemblyInfo.cs
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.csproj.CoreCompileInputs.cache
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.dll
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\obj\Debug\net9.0\refint\EstructuraApptareas2025.dll
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.pdb
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.genruntimeconfig.cache
+C:\Users\Home\Desktop\ESTRUCTURADATOS2025\EstructuraApptareas2025\obj\Debug\net9.0\ref\EstructuraApptareas2025.dll
