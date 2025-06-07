@@ -30,9 +30,20 @@ public class Circulo
 // Clase Cuadrado para calcular el área y perimetro del cuadrado
 public class Cuadrado
 {
-    private int lado; // Atributo privado
+    private double lado; // Atributo privado
 
     //Constructor de la clase Círculo
+    public Cuadrado( double lado)
+    {
+        this.lado=lado
+    }
+    //Función para calcular el área del Cuadrado
+    public double areaCuadrado()
+    {
+        return lado*lado:
+    }
+    //
+
 
 }
    
