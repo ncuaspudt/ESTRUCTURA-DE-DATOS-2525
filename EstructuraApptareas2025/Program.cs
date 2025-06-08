@@ -55,10 +55,19 @@ public class Cuadrado
 public class Inicio
 {
     public static void Main()
+    {
+        Console.WriteLinea("el perimetro de un circulo de lado 6 es"+ perimetroCirculo(6));
+        Console.WriteLinea("el lado de un circulo de lado 6 es"+ areaCirculo(6));
+        
+        Console.WriteLinea("el perimetro de un cuadrado de lado 8 es" + perimetroCuadrado(8));
+        Console.WriteLinea("el lado de un cuadrado de lado 8 es" + areaCuadrado(8));
+
+
+    }
+  
 }
    
-Console.WriteLinea("el perimetro de un cuadrado de lado 8 es" + perimetroCuadrado(8));
-Console.WriteLinea("el lado de un cuadrado de lado 8 es" + areaCuadrado(8) )
+
 
 
 
