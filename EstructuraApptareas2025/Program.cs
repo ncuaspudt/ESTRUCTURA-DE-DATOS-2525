@@ -49,7 +49,6 @@ public class Cuadrado
 
 }
 
-
 //Clase para que el programa se ejecute
 
 public class Inicio
