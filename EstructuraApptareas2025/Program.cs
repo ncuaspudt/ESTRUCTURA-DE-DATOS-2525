@@ -16,12 +16,12 @@ public class Circulo
     //Función para calcular el Área de Círculo
     public double areaCirculo()
     {
-        return Math.PI * radio * radio; //Fórmula para calcular el área del circulo.
+        return Math.PI * radio * radio; //Fórmula para calcular el área del círculo.
     }
     //Función para calcular el perímetro del Círculo
     public double perimetroCirculo()
     {
-        return 2 * Math.PI * radio; //Fórmula para calcular el perimetro de un circulo.
+        return 2 * Math.PI * radio; //Fórmula para calcular el perimetro de un círculo.
     }
 
 
