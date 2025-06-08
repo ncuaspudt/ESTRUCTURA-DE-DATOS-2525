@@ -1,19 +1,19 @@
-﻿//Clases para dos figuras geométricas(círculo, cuadrado) en código C#.
+﻿//Calcularemos el área y perímetro de dos figuras gemétricas (círculo y cuadrado)
 
 using System;
 namespace FigurasGeometricas
 {
-//Clase círculo para representar el círculo y calcular área y perímetro
+//Clase círculo para representar la figura geométrica círculo calcula el área y perímetro.
 public class Circulo
 {
-    private double radio; //Atributo privado que encapsula el valor del radio del círculo
+    private double radio; //Atributo privado que encapsula el valor del radio del círculo.
 
     //Constructor de la clase Círculo
     public Circulo(double radio)
     {
         this.radio=radio;
     }
-    //Función para calcular el Área de Círculo
+    //Función para calcular el Área de Círculo devuelve un valor doble.
     public double areaCirculo()
     {
         return Math.PI * radio * radio; //Fórmula para calcular el área del círculo.
@@ -26,7 +26,7 @@ public class Circulo
 
 
 }
-// Clase Cuadrado para calcular el área y perimetro del cuadrado
+// Clase Cuadrado que representa a la figura geométrica cuadrado, calcula el área y perímetro.
 public class Cuadrado
 {
     private double lado; // Atributo privado
@@ -36,12 +36,12 @@ public class Cuadrado
     {
         this.lado=lado;
     }
-    //Función para calcular el área del Cuadrado
+    //Función areaCuadrado calculara el área del Cuadrado
     public double areaCuadrado()
     {
         return lado*lado;
     }
-    //Función para calcular el perimetro del Cuadrado
+    //Función perimetroCuadrado permitira calcular el perímetro del Cuadrado.
     public double perimetroCuadrado()
     {
         return lado + lado + lado +lado;
@@ -49,7 +49,7 @@ public class Cuadrado
 
 }
 
-//Clase para que el programa se ejecute
+//Clase Inicio para que el programa se ejecute 
 
 public class Inicio
 {
