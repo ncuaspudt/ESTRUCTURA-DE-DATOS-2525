@@ -31,7 +31,7 @@ public class Cuadrado
 {
     private double lado; // Atributo privado
 
-    //Constructor de la clase Círculo
+    //Constructor de la clase Círculo.
     public Cuadrado( double lado)
     {
         this.lado=lado;
