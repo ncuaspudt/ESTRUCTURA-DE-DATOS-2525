@@ -2,7 +2,7 @@
 
 using System;
 namespace FigurasGeometricas
-{}
+{
 //Clase círculo para representar el círculo y calcular área y perímetro
 public class Circulo
 {
@@ -56,18 +56,20 @@ public class Inicio
 {
     public static void Main()
     {
-        Console.WriteLinea("el perimetro de un circulo de lado 6 es"+ perimetroCirculo(6));
-        Console.WriteLinea("el lado de un circulo de lado 6 es"+ areaCirculo(6));
+        Circulo circulo = new Circulo(6);
+        Console.WriteLine("El perímetro del círculo de radio 6 es: " + circulo.perimetroCirculo());
+        Console.WriteLine("El área del círculo de radio 6 es: " + circulo.areaCirculo());
         
-        Console.WriteLinea("el perimetro de un cuadrado de lado 8 es" + perimetroCuadrado(8));
-        Console.WriteLinea("el lado de un cuadrado de lado 8 es" + areaCuadrado(8));
+        Cuadrado cuadrado = new Cuadrado(8);
+        Console.WriteLine("El perímetro del cuadrado de lado 8 es: " + cuadrado.perimetroCuadrado());
+        Console.WriteLine("El área del cuadrado de lado 8 es: " + cuadrado.areaCuadrado());
 
 
     }
   
 }
    
-
+}
 
 
 
