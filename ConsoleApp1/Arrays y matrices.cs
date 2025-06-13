@@ -45,10 +45,12 @@ class Program
 
         Console.WriteLine("\n Ingrese tres numeros de telefono:");
         for (int i = 0; i < estudiante.Telefonos.Length; i++)
+        {
             Console.Write($"Telefono{i + 1}:");
             estudiante.Telefonos[i] = Console.ReadLine();
+        }
         //Llamar a método para mostrar toda la información.
-        MostrarDatos();
+        estudiante.MostrarDatos();
         
 
 }
