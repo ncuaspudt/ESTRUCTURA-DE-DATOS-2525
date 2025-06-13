@@ -24,3 +24,32 @@ class Estudiante
         }
     }
 }
+//clase programa
+class program
+{
+    //Método principal del programa
+    static void Main()
+    {
+        //Nueva instancia de clase Estudiante
+        Estudiante estudiante = new Estudiante();
+        //Solicita ingreso de datos de estudiante.
+        Console.Write("Ingrese el ID del estudiante:");
+        estudiante.Id = int.Parse(Console.ReadLine());
+        Console.Write("Ingrese los nombres del estudiante:");
+        estudiante.Nombres = Console.ReadLine();
+        Console.Write("Ingrese los apellidos del estudiante:");
+        estudiante.Apellidos = Console.ReadLine();
+        Console.Write("Ingrese la direccion del estudiante:");
+        estudiante.Direccion = Console.ReadLine();
+        //Solicitar al estudiante que ingrese tre números de teléfono.
+
+        Console.WriteLine("\n Ingrese tres numeros de telefono:");
+        for (int i = 0; i < estudiante.Telefonos.Length; i++)
+            Console.Write($"Telefono{i + 1}:"); estudiante.Telefonos[i] =
+            Console.ReadLine()
+        //Llamar a método para mostrar toda la información.
+        estudiante.Mostrar();
+        
+
+}
+}
