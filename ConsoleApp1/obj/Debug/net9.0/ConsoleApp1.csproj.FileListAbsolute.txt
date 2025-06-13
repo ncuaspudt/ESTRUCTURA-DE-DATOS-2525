@@ -13,3 +13,11 @@ C:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525\ConsoleApp1\o
 C:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
 C:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
+c:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525-1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525-1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfoInputs.cache
+c:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525-1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.AssemblyInfo.cs
+c:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525-1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+c:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525-1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.sourcelink.json
+c:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525-1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.dll
+c:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525-1\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleApp1.dll
+c:\Users\Home\Desktop\ESTRUCTURADATOS2025\ESTRUCTURA-DE-DATOS-2525-1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb

@@ -13,7 +13,14 @@ class Estudiante
 //Método que permite visualizar toda la información del estudiante
     public void Mostrar datos()
     {
-        Console.WriteLine("---Informacion del Estudiante---");
-        Console.WriteLine()
-}
+        Console.WriteLine("\n---Informacion del Estudiante---");
+        Console.WriteLine($"ID:{Id}");
+        Console.WriteLine($"Nombre completo:¨{Nombres}{Apellidos}");
+        Console.WriteLine($"Direccion:{Direccion}");
+        // Reconoce array e imprime cada número
+        Console.WriteLine("Telefonos:"); for (int i = 0; i <) Telefonos.Length; i++)
+        {
+            Console.WriteLine($"Telefono{i + 1}:{Telefonos[i]}");
+        }
+    }
 }
