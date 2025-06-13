@@ -1,5 +1,4 @@
 ﻿//Calcularemos el área y perímetro de dos figuras gemétricas (círculo y cuadrado)
-
 using System;
 namespace FigurasGeometricas
 {
