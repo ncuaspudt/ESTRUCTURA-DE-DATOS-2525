@@ -8,24 +8,24 @@ class Estudiante
     public string Nombres;                      //Atributo nombres del estudiante
     public string Apellidos;                     //Atributo apellidos del estudiante
     public string Direccion;                     //Atributo dirección del estudiante
-    public string[] Telefonos; new string[3];    //Array para registar tres números de teléfono
+    public string[] Telefonos= new string[3];    //Array para registar tres números de teléfono
     
 //Método que permite visualizar toda la información del estudiante
-    public void Mostrar datos()
+    public void MostrarDatos()
     {
         Console.WriteLine("\n---Informacion del Estudiante---");
         Console.WriteLine($"ID:{Id}");
-        Console.WriteLine($"Nombre completo:¨{Nombres}{Apellidos}");
+        Console.WriteLine($"Nombre completo:{Nombres}{Apellidos}");
         Console.WriteLine($"Direccion:{Direccion}");
         // Reconoce array e imprime cada número
-        Console.WriteLine("Telefonos:"); for (int i = 0; i <) Telefonos.Length; i++)
+        Console.WriteLine("Telefonos:"); for (int i = 0; i < Telefonos.Length; i++)
         {
             Console.WriteLine($"Telefono{i + 1}:{Telefonos[i]}");
         }
     }
 }
 //clase programa
-class program
+class Program
 {
     //Método principal del programa
     static void Main()
@@ -45,10 +45,10 @@ class program
 
         Console.WriteLine("\n Ingrese tres numeros de telefono:");
         for (int i = 0; i < estudiante.Telefonos.Length; i++)
-            Console.Write($"Telefono{i + 1}:"); estudiante.Telefonos[i] =
-            Console.ReadLine()
+            Console.Write($"Telefono{i + 1}:");
+            estudiante.Telefonos[i] = Console.ReadLine();
         //Llamar a método para mostrar toda la información.
-        estudiante.Mostrar();
+        MostrarDatos();
         
 
 }

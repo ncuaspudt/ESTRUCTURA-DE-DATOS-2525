@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"

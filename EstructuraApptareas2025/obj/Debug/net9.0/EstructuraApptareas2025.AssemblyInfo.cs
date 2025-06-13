@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EstructuraApptareas2025")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be749d760babf5dd65636be66960d08663ef3e75")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+949d4334b9ffc1beb76d74dbe1103fb7c35c8300")]
 [assembly: System.Reflection.AssemblyProductAttribute("EstructuraApptareas2025")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EstructuraApptareas2025")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
