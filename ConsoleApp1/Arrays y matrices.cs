@@ -28,13 +28,10 @@ class Estudiante
 
     static void Main()
     {
-        //Nueva instancia de clase Estudiante
+        //Asignamos valores a cada atributo del estudiante.
         Estudiante estudiante = new Estudiante();
-        //Solicita ingreso de datos de estudiante.
-        Console.Write("Ingrese el ID del estudiante:");
-        estudiante.Id = int.Parse(Console.ReadLine());
-        Console.Write("Ingrese los nombres del estudiante:");
-        estudiante.Nombres = Console.ReadLine();
+        estudiante.Id = 1;
+        estudiante.nombres = "Danny";
         Console.Write("Ingrese los apellidos del estudiante:");
         estudiante.Apellidos = Console.ReadLine();
         Console.Write("Ingrese la direccion del estudiante:");
