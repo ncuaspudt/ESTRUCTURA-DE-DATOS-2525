@@ -14,14 +14,14 @@ class Estudiante
     public void MostrarDatos()
     {
         
-        System.Console.WriteLine("ID:" + id);                   //Imprime el ID del estudiante
-        System.Console.WriteLine("Nombres:"+ nombres);          // Imprime los nombres del estudinate
-        System.Console.WriteLine("Apellidos:" + apellidos);      // Imprime los apellidos
-        System.Console.WriteLine("Direccion:" +direccion);      // Imprime la dirección
+        System.Console.WriteLine("ID:" + Id);                   //Imprime el ID del estudiante
+        System.Console.WriteLine("Nombres:"+ Nombres);          // Imprime los nombres del estudinate
+        System.Console.WriteLine("Apellidos:" + Apellidos);      // Imprime los apellidos
+        System.Console.WriteLine("Direccion:" +Direccion);      // Imprime la dirección
         // Reconoce array e imprime cada número
         System.Console.WriteLine("Telefonos:"); for (int i = 0; i < Telefonos.Length; i++) // Se implementa un bucle para imprimir cada teléfono
         {
-            Console.WriteLine("Telefono" + (i + 1)+":"+ telefonos[i]);
+            Console.WriteLine("Telefono" + (i + 1)+":"+ Telefonos[i]);
         }
     }
 
@@ -31,12 +31,12 @@ class Estudiante
         //Asignamos valores a cada atributo del estudiante.
         Estudiante estudiante = new Estudiante();
         estudiante.Id = 1;
-        estudiante.nombres = "Danny";
-        estudiante.apellidos = "Muñoz";
-        estudiante.direccion = " La Merced de Buenos Aires, Calle Mosquera";
-        estudiante.telefonos[0] = "0966699666";
-        estudiante.telefonos[1] = "0961239666";
-        estudiante.telefonos[2] = "0964519666";
+        estudiante.Nombres = "Danny";
+        estudiante.Apellidos = "Muñoz";
+        estudiante.Direccion = " La Merced de Buenos Aires, Calle Mosquera";
+        estudiante.Telefonos[0] = "0966699666";
+        estudiante.Telefonos[1] = "0961239666";
+        estudiante.Telefonos[2] = "0964519666";
         
         //Llamar al método para que muestre los datos del estudiante
         estudiante.MostrarDatos();
