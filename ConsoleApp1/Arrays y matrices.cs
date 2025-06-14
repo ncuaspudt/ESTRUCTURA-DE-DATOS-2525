@@ -26,7 +26,7 @@ class Estudiante
     }
 
 
-    static void Main()
+    public static void Main()
     {
         //Asignamos valores a cada atributo del estudiante.
         Estudiante estudiante = new Estudiante();
