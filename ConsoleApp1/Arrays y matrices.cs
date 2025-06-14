@@ -14,9 +14,10 @@ class Estudiante
     public void MostrarDatos()
     {
         
-        System.Console.WriteLine("ID": + id);
-        Console.WriteLine($"Nombre completo:{Nombres}{Apellidos}");
-        Console.WriteLine($"Direccion:{Direccion}");
+        System.Console.WriteLine("ID": + id);                   //Imprime el ID del estudiante
+        System.Console.WriteLine("Nombres":+ nombres);          // Imprime los nombres del estudinate
+        System.Console.WriteLine("Apellidos": + apellidos);      // Imprime los apellidos
+        System.Console.WriteLine("Direccion": +direccion);      // Imprime la dirección
         // Reconoce array e imprime cada número
         Console.WriteLine("Telefonos:"); for (int i = 0; i < Telefonos.Length; i++)
         {
