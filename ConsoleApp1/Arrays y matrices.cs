@@ -1,4 +1,4 @@
-﻿// Implementare un clase Estudiante con varios atributos.
+﻿// Implementare una clase Estudiante con varios atributos.
 // Mediante un array permitira almacenar tres números de teléfono.
 
 // Registro de una clase llamada Estudiante.
@@ -13,8 +13,8 @@ class Estudiante
 //Método que permite visualizar toda la información del estudiante
     public void MostrarDatos()
     {
-        Console.WriteLine("\n---Informacion del Estudiante---");
-        Console.WriteLine($"ID:{Id}");
+        
+        System.Console.WriteLine("ID": + id);
         Console.WriteLine($"Nombre completo:{Nombres}{Apellidos}");
         Console.WriteLine($"Direccion:{Direccion}");
         // Reconoce array e imprime cada número
