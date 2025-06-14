@@ -19,9 +19,9 @@ class Estudiante
         System.Console.WriteLine("Apellidos": + apellidos);      // Imprime los apellidos
         System.Console.WriteLine("Direccion": +direccion);      // Imprime la dirección
         // Reconoce array e imprime cada número
-        Console.WriteLine("Telefonos:"); for (int i = 0; i < Telefonos.Length; i++)
+        System.Console.WriteLine("Telefonos:"); for (int i = 0; i < Telefonos.Length; i++) // Se implementa un bucle para imprimir cada teléfono
         {
-            Console.WriteLine($"Telefono{i + 1}:{Telefonos[i]}");
+            Console.WriteLine("Telefono" + (i + 1)+":"+ telefonos[i]);
         }
     }
 }
