@@ -32,10 +32,9 @@ class Estudiante
         Estudiante estudiante = new Estudiante();
         estudiante.Id = 1;
         estudiante.nombres = "Danny";
-        Console.Write("Ingrese los apellidos del estudiante:");
-        estudiante.Apellidos = Console.ReadLine();
-        Console.Write("Ingrese la direccion del estudiante:");
-        estudiante.Direccion = Console.ReadLine();
+        estudiante.apellidos = "Muñoz";
+        estudiante.direccion = " La Merced de Buenos Aires, Calle Mosquera";
+        estudiante.telefonos[0] = "0966699666";
         //Solicitar al estudiante que ingrese tre números de teléfono.
 
         Console.WriteLine("\n Ingrese tres numeros de telefono:");
