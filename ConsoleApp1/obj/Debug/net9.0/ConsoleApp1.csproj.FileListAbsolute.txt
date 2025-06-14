@@ -29,3 +29,10 @@ C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleAp
 C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.dll
 C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleApp1.dll
 C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.exe
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.deps.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.runtimeconfig.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.dll
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\bin\Debug\net9.0\ConsoleApp1.pdb
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-2\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll

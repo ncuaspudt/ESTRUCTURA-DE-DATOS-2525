@@ -31,8 +31,8 @@ class Estudiante
         //Asignamos valores a cada atributo del estudiante.
         Estudiante estudiante = new Estudiante();
         estudiante.Id = 1;
-        estudiante.Nombres = "Danny";
-        estudiante.Apellidos = "Muñoz";
+        estudiante.Nombres = "Danny Julian";
+        estudiante.Apellidos = "Muñoz Estrada";
         estudiante.Direccion = " La Merced de Buenos Aires, Calle Mosquera";
         estudiante.Telefonos[0] = "0966699666";
         estudiante.Telefonos[1] = "0961239666";
