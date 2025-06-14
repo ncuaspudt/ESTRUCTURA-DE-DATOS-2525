@@ -38,7 +38,7 @@ class Estudiante
         estudiante.telefonos[1] = "0961239666";
         estudiante.telefonos[2] = "0964519666";
         
-        //Llamar a método para mostrar toda la información.
+        //Llamar al método para que muestre los datos del estudiante
         estudiante.MostrarDatos();
         
 
