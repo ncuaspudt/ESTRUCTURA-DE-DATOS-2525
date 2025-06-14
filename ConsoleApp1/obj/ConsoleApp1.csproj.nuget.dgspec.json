@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-2\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-2\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-2\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Home\\Desktop\\ESTRUCTURADATOS2025\\ESTRUCTURA-DE-DATOS-2525-1\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-2\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-2\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

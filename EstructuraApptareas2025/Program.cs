@@ -1,7 +1,4 @@
 ﻿//Calcularemos el área y perímetro de dos figuras gemétricas (círculo y cuadrado)
-using System;
-namespace FigurasGeometricas
-{
 //Clase círculo para representar la figura geométrica círculo calcula el área y perímetro.
 public class Circulo
 {
@@ -67,7 +64,7 @@ public class Inicio
   
 }
    
-}
+
 
 
 
