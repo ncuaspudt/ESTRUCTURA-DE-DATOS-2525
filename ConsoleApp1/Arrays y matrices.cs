@@ -25,7 +25,6 @@ class Estudiante
         }
     }
 
-
     public static void Main()
     {
         //Asignamos valores a cada atributo del estudiante.
