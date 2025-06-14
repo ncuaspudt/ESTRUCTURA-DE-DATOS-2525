@@ -14,10 +14,10 @@ class Estudiante
     public void MostrarDatos()
     {
         
-        System.Console.WriteLine("ID": + id);                   //Imprime el ID del estudiante
-        System.Console.WriteLine("Nombres":+ nombres);          // Imprime los nombres del estudinate
-        System.Console.WriteLine("Apellidos": + apellidos);      // Imprime los apellidos
-        System.Console.WriteLine("Direccion": +direccion);      // Imprime la dirección
+        System.Console.WriteLine("ID:" + id);                   //Imprime el ID del estudiante
+        System.Console.WriteLine("Nombres:"+ nombres);          // Imprime los nombres del estudinate
+        System.Console.WriteLine("Apellidos:" + apellidos);      // Imprime los apellidos
+        System.Console.WriteLine("Direccion:" +direccion);      // Imprime la dirección
         // Reconoce array e imprime cada número
         System.Console.WriteLine("Telefonos:"); for (int i = 0; i < Telefonos.Length; i++) // Se implementa un bucle para imprimir cada teléfono
         {
