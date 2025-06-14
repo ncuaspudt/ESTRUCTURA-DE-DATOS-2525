@@ -24,11 +24,8 @@ class Estudiante
             Console.WriteLine("Telefono" + (i + 1)+":"+ telefonos[i]);
         }
     }
-}
-//clase programa
-class Program
-{
-    //Método principal del programa
+
+
     static void Main()
     {
         //Nueva instancia de clase Estudiante
