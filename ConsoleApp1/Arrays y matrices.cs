@@ -35,14 +35,9 @@ class Estudiante
         estudiante.apellidos = "Muñoz";
         estudiante.direccion = " La Merced de Buenos Aires, Calle Mosquera";
         estudiante.telefonos[0] = "0966699666";
-        //Solicitar al estudiante que ingrese tre números de teléfono.
-
-        Console.WriteLine("\n Ingrese tres numeros de telefono:");
-        for (int i = 0; i < estudiante.Telefonos.Length; i++)
-        {
-            Console.Write($"Telefono{i + 1}:");
-            estudiante.Telefonos[i] = Console.ReadLine();
-        }
+        estudiante.telefonos[1] = "0961239666";
+        estudiante.telefonos[2] = "0964519666";
+        
         //Llamar a método para mostrar toda la información.
         estudiante.MostrarDatos();
         
