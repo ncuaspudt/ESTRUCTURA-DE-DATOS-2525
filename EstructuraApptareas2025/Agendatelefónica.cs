@@ -1,152 +1,118 @@
 // Se creara un sistema de Agenda telefónica.
 //Mediante la utilización de clases, métodos, atributos.
 //agregamos un métodos para escribir texto.
-
-Console.WriteLine("Universidad Estatal Amazónica");
-Console.WriteLine("===================");
-
 //Se define una estructura pública
-public struct Contacto
-
+class Contacto
 {
-    public string Nombre;                        //Atributo nombres del contacto
-    public string Telefono;                      //Atributo teléfono de contacto
-    public string Direccion;                     //Atributo dirección de contacto
+    public string Nombre;
+    public string Telefono;
+    public string Direccion;
 
-
-    //Constructor para iniciar los datos del contacto
+    // Constructor
     public Contacto(string nombre, string telefono, string direccion)
     {
         Nombre = nombre;
         Telefono = telefono;
-        Direccion = direccion;
-
+        Email = direccion;
     }
-    //Método para mostrar información del contacto
+
+    // Método para mostrar el contacto
     public void Mostrar()
     {
-        Console.WriteLine("Nombre:+" Nombre);
-        Console.WriteLine("Telefono:+"Telefono);
-        Console.WriteLine("Direccion:+"Direccion);
+        // Este método depende de Console, así que se asume que se permite para entrada/salida
+        Console.WriteLine("Nombre: " + Nombre + ", Teléfono: " + Telefono + ", Dirección: " + Direccion);
     }
 }
-//Clase para manejar Agenda Telefónica
-public class Agenda
-{
-    private Contacto[] contactos; // Arreglo para almacenar contactos
-    private int contador;         // Número de contactos
 
-    //Constructor
+class Agenda
+{
+    private Contacto[] contactos; // Arrays
+    private int cantidad;         // Cantidad actual de contactos
+
+    // Constructor
     public Agenda(int capacidad)
     {
         contactos = new Contacto[capacidad];
-        contador = 0; // Inicialmente no hay contactos
+        cantidad = 0;
     }
-    //Método para agregar un contacto en la agenda
+
+    // Método para agregar un contacto
     public void AgregarContacto(Contacto nuevo)
     {
-        if (contador < contactos.Length) // Verificar que haya espacio
+        if (cantidad < contactos.Length)
         {
-            contactos[contador] = nuevo; // Agrega el contacto 
-            contador++;                  // Incrementa el contador de contactos
-            Console.WriteLine("Contacto agregado correctamente");
+            contactos[cantidad] = nuevo;
+            cantidad++;
+            Console.WriteLine("Contacto agregado.\n");
         }
         else
         {
             Console.WriteLine("La agenda está llena.\n");
         }
     }
+
     // Método para mostrar todos los contactos
-public void MostrarContactos()
-        {
-            if (contador == 0) // Si no hay contactos
-            {
-                Console.WriteLine("📭 No hay contactos en la agenda.\n");
-                return;
-            }
-
-            Console.WriteLine(" Listado de contactos:\n");
-            for (int i = 0; i < contador; i++) contactos[i].Mostrar();
-            Console.WriteLine();
-        }
-
-        // Método para buscar contactos por nombre (puede ser parcial, no sensible a mayúsculas)
-        public void BuscarPorNombre(string nombre)
-        {
-            bool encontrado = false;
-
-            Console.WriteLine($"\n🔍 Resultados para la búsqueda: '{nombre}'\n");
-
-            for (int i = 0; i < contador; i++)
-            {
-                if (contactos[i].Nombre.ToLower().Contains(nombre.ToLower()))
-                {
-                    contactos[i].Mostrar();
-                    encontrado = true;
-                }
-            }
-
-            if (!encontrado)
-                Console.WriteLine("❌ No se encontraron contactos con ese nombre.\n");
-        }
-    }
-
-    // Clase principal que contiene el método Main para ejecutar el programa
-    class Program
+    public void MostrarContactos()
     {
-        static void Main(string[] args)
+        if (cantidad == 0)
         {
-            Agenda miAgenda = new Agenda(100); // Crear una agenda con capacidad para 100 contactos
-            bool salir = false;                // Variable para controlar el bucle del menú
-
-            while (!salir)
+            Console.WriteLine("La agenda está vacía.");
+        }
+        else
+        {
+            for (int i = 0; i < cantidad; i++)
             {
-                Console.WriteLine("========= AGENDA TELEFÓNICA =========");
-                Console.WriteLine("1. Agregar contacto");
-                Console.WriteLine("2. Mostrar todos los contactos");
-                Console.WriteLine("3. Buscar contacto por nombre");
-                Console.WriteLine("4. Salir");
-                Console.Write("Seleccione una opción: ");
-                string opcion = Console.ReadLine();
-                Console.WriteLine();
-
-                switch (opcion)
-                {
-                    case "1":
-                        // Solicitar datos del nuevo contacto
-                        Console.Write("Ingrese el nombre: ");
-                        string nombre = Console.ReadLine();
-                        Console.Write("Ingrese el teléfono: ");
-                        string telefono = Console.ReadLine();
-                        Console.Write("Ingrese la dirección: ");
-                        string direccion = Console.ReadLine();
-
-                        // Crear contacto y agregarlo
-                        Contacto nuevo = new Contacto(nombre, telefono, direccion);
-                        miAgenda.AgregarContacto(nuevo);
-                        break;
-
-                    case "2":
-                        miAgenda.MostrarContactos();
-                        break;
-
-                    case "3":
-                        Console.Write("Ingrese el nombre a buscar: ");
-                        string nombreBusqueda = Console.ReadLine();
-                        miAgenda.BuscarPorNombre(nombreBusqueda);
-                        break;
-
-                    case "4":
-                        salir = true;
-                        Console.WriteLine("👋 ¡Gracias por usar la agenda!");
-                        break;
-
-                    default:
-                        Console.WriteLine("⚠️ Opción no válida. Intente de nuevo.\n");
-                        break;
-                }
+                contactos[i].Mostrar();
             }
         }
     }
 
+    // Método para buscar por nombre
+    public void BuscarPorNombre(string nombre)
+    {
+        bool encontrado = false;
+        for (int i = 0; i < cantidad; i++)
+        {
+            if (contactos[i].Nombre == nombre)
+            {
+                contactos[i].Mostrar();
+                encontrado = true;
+            }
+        }
+
+        if (!encontrado)
+        {
+            Console.WriteLine("Contacto no encontrado.");
+        }
+    }
 }
+
+// Programa principal
+class Program
+{
+    static void Main()
+    {
+        Agenda agenda = new Agenda(5); // Capacidad máxima de 5 contactos
+
+        // Agregar contactos manualmente
+        agenda.AgregarContacto(new Contacto("Juan", "1234", "juan@correo.com"));
+        agenda.AgregarContacto(new Contacto("Ana", "5678", "ana@correo.com"));
+
+        // Mostrar todos los contactos
+        agenda.MostrarContactos();
+
+        // Buscar un contacto
+        Console.Write("\nIngrese el nombre a buscar: ");
+        string nombreBuscado = Console.ReadLine();
+        agenda.BuscarPorNombre(nombreBuscado);
+
+        Console.WriteLine("\nFin del programa.");
+    }
+}
+
+
+
+
+
+
+
