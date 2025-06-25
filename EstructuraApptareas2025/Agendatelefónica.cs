@@ -33,6 +33,22 @@ public struct Contacto
 //Clase para manejar Agenda Telefónica
 public class Agenda
 {
-        private Contacto[] contactos; // Arreglo para almacenar contactos
-        private int contador;         // Número actual de contactos almacenados
+    private Contacto[] contactos; // Arreglo para almacenar contactos
+    private int contador;         // Número de contactos
+
+    //Constructor
+    public Agenda(int capacidad)
+    {
+        contactos = new Contacto[capacidad];
+        contador = 0; // Inicialmente no hay contactos
+    }
+    //Método para agregar un contacto en la agenda
+    public void AgregarContacto(Contacto nuevo)
+        {
+        if (contador < contactos.Length) // Verificar que haya espacio
+        {
+            contactos[contador] = nuevo; // Agrega el contacto 
+            contador++;                  // Incrementa el contador de contactos
+            Console.WriteLine("Contacto agregado correctamente.\n");
+        }
 }
