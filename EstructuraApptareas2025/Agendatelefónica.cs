@@ -107,7 +107,7 @@ class Program
 
         // Buscar un contacto
         System.Console.Write("\nIngrese el nombre a buscar: ");
-        string nombreBuscado = System.Console.ReadLine();
+        string nombreBuscado = System.Console.ReadLine() ?? "";
         agenda.BuscarPorNombre(nombreBuscado);
 
         System.Console.WriteLine("\nFin del programa.");
