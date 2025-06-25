@@ -20,6 +20,13 @@ public struct Contacto
         Nombre = nombre;
         Telefono = telefono;
         Direccion = direccion;
- 
+
+    }
+    //Método para mostrar información del contacto
+    public void Mostrar()
+    {
+        Console.WriteLine("Nombre:+" Nombre);
+        Console.WriteLine("Telefono:+"Telefono);
+        Console.WriteLine("Direccion:+"Direccion); 
     }
 }
