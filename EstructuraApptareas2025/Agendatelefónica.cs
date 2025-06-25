@@ -107,6 +107,9 @@ public class Program
         string? entrada = System.Console.ReadLine();
 
         if (string.IsNullOrEmpty(entrada))
+        {
+            System.Console.WriteLine("Entrada vacía. No se puede realizar la búsqueda.")
+        }
         agenda.BuscarPorNombre(nombreBuscado);
 
         System.Console.WriteLine("\nFin del programa.");
