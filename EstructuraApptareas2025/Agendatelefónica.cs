@@ -5,8 +5,8 @@
 Console.WriteLine("Universidad Estatal Amazónica");
 Console.WriteLine("Agenda telefónica");
 Console.WriteLine("===================");
-//Clase Contacto
-class Contacto
+//Se define una estructura pública
+public struct Contacto
 
 {
     public string Nombre;                        //Atributo nombres del contacto
