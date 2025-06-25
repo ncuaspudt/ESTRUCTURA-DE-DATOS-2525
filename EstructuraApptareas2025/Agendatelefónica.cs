@@ -13,7 +13,7 @@ class Contacto
     {
         Nombre = nombre;
         Telefono = telefono;
-        Email = direccion;
+        Direccion = direccion;
     }
 
     // Método para mostrar el contacto
