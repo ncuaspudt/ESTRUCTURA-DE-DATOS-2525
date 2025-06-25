@@ -27,6 +27,12 @@ public struct Contacto
     {
         Console.WriteLine("Nombre:+" Nombre);
         Console.WriteLine("Telefono:+"Telefono);
-        Console.WriteLine("Direccion:+"Direccion); 
+        Console.WriteLine("Direccion:+"Direccion);
     }
+}
+//Clase para manejar Agenda Telefónica
+public class Agenda
+{
+        private Contacto[] contactos; // Arreglo para almacenar contactos
+        private int contador;         // Número actual de contactos almacenados
 }
