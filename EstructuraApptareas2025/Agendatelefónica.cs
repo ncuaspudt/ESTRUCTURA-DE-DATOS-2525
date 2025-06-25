@@ -49,11 +49,19 @@ public class Agenda
         {
             contactos[contador] = nuevo; // Agrega el contacto 
             contador++;                  // Incrementa el contador de contactos
-            Console.WriteLine("Contacto agregado correctamente.\n");
+            Console.WriteLine("Contacto agregado correctamente");
         }
-         else
+        else
+        {
+            Console.WriteLine("❌ La agenda está llena.\n");
+        }
+    }
+    // Método para mostrar todos los contactos
+        public void MostrarContactos()
+        {
+            if (contador == 0) 
             {
-                Console.WriteLine("❌ La agenda está llena.\n");
+                Console.WriteLine("No hay contactos en la agenda");
+                return;
             }
-        }
 }
