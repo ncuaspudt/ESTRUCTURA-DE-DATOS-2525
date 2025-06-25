@@ -108,18 +108,16 @@ public class Program
 
         if (string.IsNullOrEmpty(entrada))
         {
-            System.Console.WriteLine("Entrada vacía. No se puede realizar la búsqueda.")
+            System.Console.WriteLine("Entrada vacía. No se puede realizar la búsqueda.");
         }
         else
         {
-          agenda.BuscarPorNombre(nombreBuscado);  
+          agenda.BuscarPorNombre(entrada);  
         }
         
         System.Console.WriteLine("\nFin del programa.");
     }
   }
-}
-
 
 
 
