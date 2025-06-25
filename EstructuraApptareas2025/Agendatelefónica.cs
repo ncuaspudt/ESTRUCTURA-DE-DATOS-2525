@@ -7,3 +7,10 @@ Console.WriteLine("Agenda telefónica");
 Console.WriteLine("===================");
 //Clase Contacto
 class Contacto
+
+{
+    public string Nombre;                        //Atributo nombres del contacto
+    public string Telefono;                      //Atributo teléfono de contacto
+    public string direccion;                     //Atributo dirección de contacto
+
+}
