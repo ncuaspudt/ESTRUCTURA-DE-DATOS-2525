@@ -95,8 +95,8 @@ class Program
         Agenda agenda = new Agenda(5); // Capacidad máxima de 5 contactos
 
         // Agregar contactos manualmente
-        agenda.AgregarContacto(new Contacto("Juan", "1234", "juan@correo.com"));
-        agenda.AgregarContacto(new Contacto("Ana", "5678", "ana@correo.com"));
+        agenda.AgregarContacto(new Contacto("Juan", "1234", "Calle Sucre"));
+        agenda.AgregarContacto(new Contacto("Ana", "5678", "Calle Mosquera"));
 
         // Mostrar todos los contactos
         agenda.MostrarContactos();
