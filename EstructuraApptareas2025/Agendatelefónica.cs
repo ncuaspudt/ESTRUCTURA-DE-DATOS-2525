@@ -52,6 +52,7 @@ class Agenda
     }
 
     // Método para mostrar todos los contactos
+    
     public void MostrarContactos()
     {
         if (cantidad == 0)
