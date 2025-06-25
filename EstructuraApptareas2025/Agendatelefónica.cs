@@ -90,15 +90,16 @@ public class Agenda
 // Programa principal
 public class Program
 {
-    static void Main()
+    public static void Main()
     {
-        Agenda agenda = new Agenda(5); // Capacidad máxima de 5 contactos
+        Agenda agenda = new Agenda(4); // Capacidad máxima de 4 contactos
 
         // Agregar contactos manualmente
         agenda.AgregarContacto(new Contacto("Maria", "062943011", "Calle Sucre"));
         agenda.AgregarContacto(new Contacto("Maira", "0969696969", "Calle Mosquera"));
 
         // Mostrar todos los contactos
+        System.Console.WriteLine("\nLista de contactos:");
         agenda.MostrarContactos();
 
         // Buscar un contacto
