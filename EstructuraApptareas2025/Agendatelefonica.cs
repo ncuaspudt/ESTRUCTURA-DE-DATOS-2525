@@ -90,7 +90,7 @@ public class Agenda
 // Programa principal
 public class Program
 {
-    public static void Main()
+    public static void main()
     {
         Agenda agenda = new Agenda(4); // Capacidad máxima de 4 contactos
 
