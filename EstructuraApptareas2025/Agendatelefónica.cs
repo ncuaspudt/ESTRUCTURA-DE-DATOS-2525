@@ -1,8 +1,12 @@
 // Se creara un sistema de Agenda telefónica.
 //Mediante la utilización de clases, métodos, atributos.
 //agregamos un métodos para escribir texto.
+using System;
+
+namespace Agendatelefonica
+{
 //Se define una estructura pública
-class Contacto
+public struct Contacto
 {
     public string Nombre;
     public string Telefono;
@@ -68,7 +72,7 @@ class Agenda
     }
 
     // Método para buscar por nombre
-    public void BuscarPorNombre(string nombre)
+    public void BuscarPorNombre(string? nombre)
     {
         bool encontrado = false;
         for (int i = 0; i < cantidad; i++)
@@ -95,8 +99,8 @@ class Program
         Agenda agenda = new Agenda(5); // Capacidad máxima de 5 contactos
 
         // Agregar contactos manualmente
-        agenda.AgregarContacto(new Contacto("Juan", "1234", "Calle Sucre"));
-        agenda.AgregarContacto(new Contacto("Ana", "5678", "Calle Mosquera"));
+        agenda.AgregarContacto(new Contacto("Maria", "062943011", "Calle Sucre"));
+        agenda.AgregarContacto(new Contacto("Maira", "0969696969", "Calle Mosquera"));
 
         // Mostrar todos los contactos
         agenda.MostrarContactos();
@@ -108,8 +112,8 @@ class Program
 
         System.Console.WriteLine("\nFin del programa.");
     }
+  }
 }
-
 
 
 
