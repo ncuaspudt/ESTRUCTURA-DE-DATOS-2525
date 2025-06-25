@@ -102,9 +102,11 @@ public class Program
         System.Console.WriteLine("\nLista de contactos:");
         agenda.MostrarContactos();
 
-        // Buscar un contacto
+        // Buscar un contacto por nombre
         System.Console.Write("\nIngrese el nombre a buscar: ");
-        string nombreBuscado = System.Console.ReadLine() ?? "";
+        string? entrada = System.Console.ReadLine();
+
+        if (string.IsNullOrEmpty(entrada))
         agenda.BuscarPorNombre(nombreBuscado);
 
         System.Console.WriteLine("\nFin del programa.");
