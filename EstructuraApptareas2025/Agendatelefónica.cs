@@ -68,7 +68,7 @@ public class Agenda
     }
 
     // Método para buscar por nombre
-    public void BuscarPorNombre(string? nombre)
+    public void BuscarPorNombre(string nombre)
     {
         bool encontrado = false;
         for (int i = 0; i < cantidad; i++)
@@ -88,7 +88,7 @@ public class Agenda
 }
 
 // Programa principal
-class Program
+public class Program
 {
     static void Main()
     {
