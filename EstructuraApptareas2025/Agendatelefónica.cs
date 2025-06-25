@@ -110,8 +110,11 @@ public class Program
         {
             System.Console.WriteLine("Entrada vacía. No se puede realizar la búsqueda.")
         }
-        agenda.BuscarPorNombre(nombreBuscado);
-
+        else
+        {
+          agenda.BuscarPorNombre(nombreBuscado);  
+        }
+        
         System.Console.WriteLine("\nFin del programa.");
     }
   }
