@@ -44,11 +44,16 @@ public class Agenda
     }
     //Método para agregar un contacto en la agenda
     public void AgregarContacto(Contacto nuevo)
-        {
+    {
         if (contador < contactos.Length) // Verificar que haya espacio
         {
             contactos[contador] = nuevo; // Agrega el contacto 
             contador++;                  // Incrementa el contador de contactos
             Console.WriteLine("Contacto agregado correctamente.\n");
+        }
+         else
+            {
+                Console.WriteLine("❌ La agenda está llena.\n");
+            }
         }
 }
