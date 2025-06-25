@@ -5,3 +5,5 @@
 Console.WriteLine("Universidad Estatal Amazónica");
 Console.WriteLine("Agenda telefónica");
 Console.WriteLine("===================");
+//Clase Contacto
+class Contacto
