@@ -20,7 +20,7 @@ class Contacto
     public void Mostrar()
     {
         // Este método depende de Console, así que se asume que se permite para entrada/salida
-        Console.WriteLine("Nombre: " + Nombre + ", Teléfono: " + Telefono + ", Dirección: " + Direccion);
+        System.Console.WriteLine("Nombre: " + Nombre + ", Teléfono: " + Telefono + ", Dirección: " + Direccion);
     }
 }
 
@@ -56,7 +56,7 @@ class Agenda
     {
         if (cantidad == 0)
         {
-            Console.WriteLine("La agenda está vacía.");
+            System.Console.WriteLine("La agenda está vacía.");
         }
         else
         {
@@ -103,7 +103,7 @@ class Program
 
         // Buscar un contacto
         System.Console.Write("\nIngrese el nombre a buscar: ");
-        string nombreBuscado = Console.ReadLine();
+        string nombreBuscado = System.Console.ReadLine();
         agenda.BuscarPorNombre(nombreBuscado);
 
         System.Console.WriteLine("\nFin del programa.");
