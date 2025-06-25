@@ -24,7 +24,7 @@ public struct Contacto
     }
 }
 
-class Agenda
+public class Agenda
 {
     private Contacto[] contactos; // Arrays
     private int cantidad;         // Cantidad actual de contactos
