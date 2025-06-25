@@ -43,11 +43,11 @@ class Agenda
         {
             contactos[cantidad] = nuevo;
             cantidad++;
-            Console.WriteLine("Contacto agregado.\n");
+            System.Console.WriteLine("Contacto agregado.\n");
         }
         else
         {
-            Console.WriteLine("La agenda está llena.\n");
+           System.Console.WriteLine("La agenda está llena.\n");
         }
     }
 
@@ -82,7 +82,7 @@ class Agenda
 
         if (!encontrado)
         {
-            Console.WriteLine("Contacto no encontrado.");
+           System.Console.WriteLine("Contacto no encontrado.");
         }
     }
 }
@@ -102,11 +102,11 @@ class Program
         agenda.MostrarContactos();
 
         // Buscar un contacto
-        Console.Write("\nIngrese el nombre a buscar: ");
+        System.Console.Write("\nIngrese el nombre a buscar: ");
         string nombreBuscado = Console.ReadLine();
         agenda.BuscarPorNombre(nombreBuscado);
 
-        Console.WriteLine("\nFin del programa.");
+        System.Console.WriteLine("\nFin del programa.");
     }
 }
 
