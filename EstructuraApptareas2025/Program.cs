@@ -49,7 +49,7 @@ public class Cuadrado
 
 public class Inicio
 {
-    public static void Main()
+    public static void main()
     {
         Circulo circulo = new Circulo(6);
         Console.WriteLine("El perímetro del círculo de radio 6 es: " + circulo.perimetroCirculo());
