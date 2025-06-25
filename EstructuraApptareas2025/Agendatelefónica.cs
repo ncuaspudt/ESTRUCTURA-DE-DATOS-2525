@@ -11,6 +11,15 @@ public struct Contacto
 {
     public string Nombre;                        //Atributo nombres del contacto
     public string Telefono;                      //Atributo teléfono de contacto
-    public string direccion;                     //Atributo dirección de contacto
+    public string Direccion;                     //Atributo dirección de contacto
 
+
+    //Constructor para iniciar los datos del contacto
+    public Contacto(string nombre, string telefono, string direccion)
+    {
+        Nombre = nombre;
+        Telefono = telefono;
+        Direccion = direccion;
+ 
+    }
 }
