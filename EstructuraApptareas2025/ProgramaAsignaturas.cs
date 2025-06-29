@@ -2,10 +2,10 @@
 using System;
 using System.Collections.Generic;
 
-// Clase que representa una asignatura
-public class Asignatura
+// Clase que representa una asignatura (no pública)
+class Asignatura
 {
-    //Propiedades
+    // Propiedad
     public string Nombre { get; set; }
 
     public Asignatura(string nombre)
@@ -13,7 +13,8 @@ public class Asignatura
         Nombre = nombre;
     }
 }
-//clase curso
+
+// Clase principal del programa (única clase pública)
 public class Curso
 {
     public static void Main()
