@@ -8,8 +8,9 @@ public class Asignaturas
      {
         Nombre = nombre;
       }
-      public void Mostrar()
-       {
-    Console.WriteLine("_" + Nombre);
-        }
+      public string ObtenerNombre()
+{
+  return Nombre;
 }
+}
+public class curso
