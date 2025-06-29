@@ -5,6 +5,7 @@ using System.Collections.Generic;
 // Clase que representa una asignatura
 public class Asignatura
 {
+    //Propiedades
     public string Nombre { get; set; }
 
     public Asignatura(string nombre)
