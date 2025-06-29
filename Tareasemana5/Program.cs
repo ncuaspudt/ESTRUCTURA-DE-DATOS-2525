@@ -1,6 +1,9 @@
 ﻿
 /// Programa que almacene en una lista los números del 1 al 10, separados por una coma. 
-// Función que convierte un número entero a su forma ordinal corta
+Console.WriteLine("Universidad Estatal Amazónica");
+Console.WriteLine("Carrera de Tecnologías de la Información");
+Console.WriteLine("Nubia Cuaspud");
+Console.WriteLine("======================");
 // Función que convierte un número entero a su forma ordinal corta
 string ConvertirOrdinal(int numero)
 {
