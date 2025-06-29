@@ -14,7 +14,7 @@ string ConvertirOrdinal(int numero)
 var numeros = new System.Collections.Generic.List<int>();
 
 // Llenar la lista con los números del 1 al 10
-for (int i = 0; i <= 10; i++)
+for (int i = 1; i <= 10; i++)
 {
     numeros.Add(i);
 }
