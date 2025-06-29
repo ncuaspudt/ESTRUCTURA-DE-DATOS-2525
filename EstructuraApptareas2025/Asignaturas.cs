@@ -14,3 +14,18 @@ public class Asignaturas
 }
 }
 public class curso
+{
+  private System.Collections.Generic.List<Asignatura> asignaturas;
+  public Curso()
+  {
+    asignaturas = new System.Collections.Generic.List<Asignatura>();
+    Asignaturas.Add(new Asignaturas("Matemáticas"));
+    Asignaturas.Add(new Asignaturas("Educación Física"));
+    Asignaturas.Add(new Asignaturas("Lengua y Literatura"));
+    Asignaturas.Add(new Asignaturas("ECA"));
+    Asignaturas.Add(new Asignaturas("Cívica"));
+    Asignaturas.Add(new Asignaturas("Ciencias Naturales"));
+    Asignaturas.Add(new Asignaturas("Estudios Sociales"));
+    Asignaturas.Add(new Asignaturas("Inglés"));
+      }
+      }
