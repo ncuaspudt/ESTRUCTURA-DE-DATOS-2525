@@ -18,7 +18,6 @@ for (int i = 0; i <= 10; i++)
 {
     numeros.Add(i);
 }
-
 // Mostrar los números en orden descendente con ordinales
 System.Console.WriteLine("Números ordinales descendentes:");
 
