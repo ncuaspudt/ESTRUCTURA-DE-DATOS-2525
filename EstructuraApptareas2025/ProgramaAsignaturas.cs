@@ -1,11 +1,6 @@
-//Crear un programa con diferentes asignaturas 
-using System;
-using System.Collections.Generic;
-
-// Clase que representa una asignatura (no pública)
+// Clase que representa una asignatura
 class Asignatura
 {
-    // Propiedad
     public string Nombre { get; set; }
 
     public Asignatura(string nombre)
@@ -14,25 +9,18 @@ class Asignatura
     }
 }
 
-// Clase principal del programa (única clase pública)
-public class Curso
+// Crear lista de asignaturas
+var asignaturas = new System.Collections.Generic.List<Asignatura>()
 {
-    public static void Main()
-    {
-        // Crear lista de asignaturas
-        List<Asignatura> asignaturas = new List<Asignatura>()
-        {
-            new Asignatura("Matemáticas"),
-            new Asignatura("Física"),
-            new Asignatura("Química"),
-            new Asignatura("Historia"),
-            new Asignatura("Lengua")
-        };
+    new Asignatura("Matemáticas"),
+    new Asignatura("Física"),
+    new Asignatura("Química"),
+    new Asignatura("Historia"),
+    new Asignatura("Lengua")
+};
 
-        // Mostrar cada asignatura con el mensaje
-        foreach (var asignatura in asignaturas)
-        {
-            Console.WriteLine("Yo estudio " + asignatura.Nombre);
-        }
-    }
+// Mostrar cada asignatura con el mensaje
+foreach (var asignatura in asignaturas)
+{
+    System.Console.WriteLine("Yo estudio " + asignatura.Nombre);
 }
