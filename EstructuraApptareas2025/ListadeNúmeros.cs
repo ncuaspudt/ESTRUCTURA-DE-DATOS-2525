@@ -1,4 +1,4 @@
-
+// Programa que almacene en una lista los números del 1 al 10, separados por una coma. 
 // Iniciar programa de una clase llamada ListaDeNumeros
 class ListaDeNumeros
 {
