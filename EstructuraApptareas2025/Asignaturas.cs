@@ -1,3 +1,4 @@
+// Programa que almacenara las asignaturas de un curso como Matemáticas, Física, Química, Historia y Lengua
 // Clase asignatura
 public class Asignaturas
 {

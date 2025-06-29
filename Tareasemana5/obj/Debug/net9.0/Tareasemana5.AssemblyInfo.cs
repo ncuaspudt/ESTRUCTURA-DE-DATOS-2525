@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tareasemana5")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71818fb7c509716e3713eae9a0bd116875130918")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54a5d6847a4a2897fbe3d5166af826408a68258d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tareasemana5")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tareasemana5")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
