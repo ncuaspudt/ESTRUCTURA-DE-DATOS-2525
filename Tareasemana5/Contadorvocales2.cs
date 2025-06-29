@@ -1,7 +1,6 @@
-//Programa que pida al usuario una palabra y muestre por pantalla el número de veces que contiene cada vocal.
-// Solicita al usuario que escriba una palabra
+// Programa que pide al usuario una palabra y muestra cuántas veces aparece cada vocal
 System.Console.WriteLine("Escribe una palabra:");
-string palabra = System.Console.ReadLine().ToLower();
+string palabra = (System.Console.ReadLine() ?? "").ToLower();
 
 // Contadores de vocales
 int a = 0, e = 0, i = 0, o = 0, u = 0;
