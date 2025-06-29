@@ -6,7 +6,7 @@ class ListaDeNumeros
     static void Main()
     {
         // Crear una lista para almacenar los números del 1 al 10
-        System.Collections.Generic.List<int> numeros = new System.Collections.Generic.List<int>();
+      var numeros = new System.Collections.Generic.List<int>();
 
         // Llenar la lista con los números del 1 al 10 usando un bucle for
         for (int i = 1; i <= 10; i++)
