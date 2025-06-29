@@ -1,10 +1,9 @@
 // Realizare un programa que asigne asignaturas de un curso con POO.
 
-//Clase Asignaturas
 using System;
 using System.Collections.Generic;
 
-// Clase que representa una asignatura
+// Clase  asignatura
 public class Asignaturas
 {
     // Propiedad para el nombre de la asignatura

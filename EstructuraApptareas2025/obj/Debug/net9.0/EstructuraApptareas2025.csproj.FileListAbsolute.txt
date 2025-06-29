@@ -51,3 +51,10 @@ C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\Estructur
 C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.dll
 C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\obj\Debug\net9.0\refint\EstructuraApptareas2025.dll
 C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.pdb
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.exe
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.deps.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.runtimeconfig.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.dll
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\bin\Debug\net9.0\EstructuraApptareas2025.pdb
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\obj\Debug\net9.0\EstructuraApptareas2025.genruntimeconfig.cache
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-4\EstructuraApptareas2025\obj\Debug\net9.0\ref\EstructuraApptareas2025.dll
