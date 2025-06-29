@@ -1,4 +1,5 @@
 using System;
+
 Console.WriteLine("Escribe una palabra:");
 string palabra = (Console.ReadLine() ?? "").ToLower();
 
