@@ -1,47 +1,38 @@
 // Programa que almacenara las asignaturas de un curso como Matemáticas, Física, Química, Historia y Lengua
-// Clase asignatura
-public class Asignaturas
+// Clase asignatura// Programa con asignaturas de un curso
+
+// Clase que representa asignaturas de un curso.
+class Asignatura
 {
-    // Propiedad para el nombre de la asignatura
+    // Propiedad que almacena el nombre de la asignatura
     public string Nombre { get; set; }
 
-    // Constructor que recibe el nombre como parámetro
-    public Asignaturas(string nombre)
+    // Constructor que recibe el nombre
+    public Asignatura(string nombre)
     {
         Nombre = nombre;
     }
-
-    // Método que devuelve el nombre de la asignatura
-    public string ObtenerNombre()
-    {
-        return Nombre;
-    }
 }
 
-// Clase que representa un curso con varias asignaturas
-public class Curso
+// Clase principal que contiene el método de entrada
+class Programa
 {
-    // Lista privada de asignaturas
-    private System.Collections.Generic.List<Asignaturas> asignaturas;
-
-    // Constructor que inicializa la lista con algunas asignaturas
-    public Curso()
+    static void Main()
     {
-        asignaturas = new System.Collections.Generic.List<Asignaturas>();
-        asignaturas.Add(new Asignaturas("Matemáticas"));
-        asignaturas.Add(new Asignaturas("Física"));
-        asignaturas.Add(new Asignaturas("Lengua y Literatura"));
-        asignaturas.Add(new Asignaturas("Historia"));
-        asignaturas.Add(new Asignaturas("Química"));
-    }
-
-    // Método público para mostrar las asignaturas
-    public void MostrarAsignaturas()
-    {
-        System.Console.WriteLine("Asignaturas del curso:");
-        foreach (Asignaturas asignatura in asignaturas)
+        // Crear lista de asignaturas sin usar 'using'
+        System.Collections.Generic.List<Asignatura> asignaturas = new System.Collections.Generic.List<Asignatura>()
         {
-            System.Console.WriteLine("_ " + asignatura.ObtenerNombre());
+            new Asignatura("Matemáticas"),        //Agrega la asignatura de Matemática
+            new Asignatura("Física"),             //Agrega la asignatura de Física
+            new Asignatura("Química"),            //Agrega la asignatura de Quimica
+            new Asignatura("Historia"),           //Agrega la asignatura de Historia
+            new Asignatura("Lengua")              //Agrega la asignatura de Lengua
+        };
+
+        // Mostrar solo los nombres de las asignaturas
+        foreach (Asignatura asignatura in asignaturas)
+        {
+            System.Console.WriteLine(asignatura.Nombre);
         }
     }
 }
