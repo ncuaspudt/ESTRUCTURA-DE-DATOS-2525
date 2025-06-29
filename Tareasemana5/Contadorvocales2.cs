@@ -1,6 +1,6 @@
-// Programa que pide al usuario una palabra y muestra cuántas veces aparece cada vocal
-System.Console.WriteLine("Escribe una palabra:");
-string palabra = (System.Console.ReadLine() ?? "").ToLower();
+using System;
+Console.WriteLine("Escribe una palabra:");
+string palabra = (Console.ReadLine() ?? "").ToLower();
 
 // Contadores de vocales
 int a = 0, e = 0, i = 0, o = 0, u = 0;
@@ -16,9 +16,9 @@ foreach (char c in palabra)
 }
 
 // Muestra resultados
-System.Console.WriteLine("Número de vocales en la palabra:");
-System.Console.WriteLine("a: " + a);
-System.Console.WriteLine("e: " + e);
-System.Console.WriteLine("i: " + i);
-System.Console.WriteLine("o: " + o);
-System.Console.WriteLine("u: " + u);
+Console.WriteLine("Número de vocales en la palabra:");
+Console.WriteLine("a: " + a);
+Console.WriteLine("e: " + e);
+Console.WriteLine("i: " + i);
+Console.WriteLine("o: " + o);
+Console.WriteLine("u: " + u);
