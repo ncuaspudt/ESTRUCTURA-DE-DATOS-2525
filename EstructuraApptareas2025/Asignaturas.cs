@@ -3,9 +3,9 @@
 
 public class Asignaturas
 {
-    public string Nombre { get; set; };
-    public Asignaturas(string nombre);
-     {
+    public string Nombre { get; set; }
+    public Asignaturas(string nombre)
+    { 
         Nombre = nombre;
       }
       public string ObtenerNombre()
@@ -13,19 +13,29 @@ public class Asignaturas
   return Nombre;
 }
 }
-public class curso
+public class Curso
 {
-  private System.Collections.Generic.List<Asignatura> asignaturas;
-  public Curso()
+    private System.Collections.Generic.List<Asignatura> asignaturas;
+
+    public Curso()
+    {
+        asignaturas = new System.Collections.Generic.List<Asignatura>();
+        asignaturas.Add(new Asignatura("Matemáticas"));
+        asignaturas.Add(new Asignatura("Educación Física"));
+        asignaturas.Add(new Asignatura("Lengua y Literatura"));
+        asignaturas.Add(new Asignatura("ECA"));
+        asignaturas.Add(new Asignatura("Cívica"));
+        asignaturas.Add(new Asignatura("Ciencias Naturales"));
+        asignaturas.Add(new Asignatura("Estudios Sociales"));
+        asignaturas.Add(new Asignatura("Inglés"));
+    }
+
+  public void MostrarAsignaturas()
   {
-    asignaturas = new System.Collections.Generic.List<Asignatura>();
-    Asignaturas.Add(new Asignaturas("Matemáticas"));
-    Asignaturas.Add(new Asignaturas("Educación Física"));
-    Asignaturas.Add(new Asignaturas("Lengua y Literatura"));
-    Asignaturas.Add(new Asignaturas("ECA"));
-    Asignaturas.Add(new Asignaturas("Cívica"));
-    Asignaturas.Add(new Asignaturas("Ciencias Naturales"));
-    Asignaturas.Add(new Asignaturas("Estudios Sociales"));
-    Asignaturas.Add(new Asignaturas("Inglés"));
-      }
-      }
+    Console.WriteLine("Asignaturas de curso:");
+    foreach (var asignatura in asignaturas)
+    {
+      Console.WriteLine("_" + asignatura.ObtenerNombre());
+    }
+  }
+}
