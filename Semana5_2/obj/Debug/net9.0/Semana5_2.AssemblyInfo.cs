@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MiCurso")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Semana5_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8488cad4d2f28361ef49558d63d003ab4e4f152")]
-[assembly: System.Reflection.AssemblyProductAttribute("MiCurso")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MiCurso")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71818fb7c509716e3713eae9a0bd116875130918")]
+[assembly: System.Reflection.AssemblyProductAttribute("Semana5_2")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Semana5_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

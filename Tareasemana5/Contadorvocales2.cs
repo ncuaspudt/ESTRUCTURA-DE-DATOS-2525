@@ -1,4 +1,4 @@
-using System;
+//Programa que pida al usuario una palabra y muestre por pantalla el número de veces que contiene cada vocal.
 
 Console.WriteLine("Escribe una palabra:");
 string palabra = (Console.ReadLine() ?? "").ToLower();
