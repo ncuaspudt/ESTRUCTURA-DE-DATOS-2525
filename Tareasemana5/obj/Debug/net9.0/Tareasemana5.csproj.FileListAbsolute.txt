@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\bin\Debug\net9.0\Tareasemana5.exe
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\bin\Debug\net9.0\Tareasemana5.deps.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\bin\Debug\net9.0\Tareasemana5.runtimeconfig.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\bin\Debug\net9.0\Tareasemana5.dll
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\bin\Debug\net9.0\Tareasemana5.pdb
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\Tareasemana5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\Tareasemana5.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\Tareasemana5.AssemblyInfo.cs
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\Tareasemana5.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\Tareasemana5.sourcelink.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\Tareasemana5.dll
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\refint\Tareasemana5.dll
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\Tareasemana5.pdb
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\Tareasemana5.genruntimeconfig.cache
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-6\Tareasemana5\obj\Debug\net9.0\ref\Tareasemana5.dll

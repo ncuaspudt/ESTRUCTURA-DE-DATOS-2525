@@ -1,4 +1,5 @@
-// Clase que representa una asignatura
+// Clase que representa asignaturas de un curso.
+
 class Asignatura
 {
     public string Nombre { get; set; }
@@ -10,14 +11,14 @@ class Asignatura
 }
 
 // Crear lista de asignaturas
-var asignaturas = new System.Collections.Generic.List<Asignatura>()
+var asignaturas = new System.Collections.Generic.List<Asignaturas>()
 {
     new Asignatura("Matemáticas"),
     new Asignatura("Física"),
     new Asignatura("Química"),
     new Asignatura("Historia"),
     new Asignatura("Lengua")
-};
+}
 
 // Mostrar cada asignatura con el mensaje
 foreach (var asignatura in asignaturas)
