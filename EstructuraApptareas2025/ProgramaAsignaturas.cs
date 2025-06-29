@@ -1,9 +1,11 @@
+// Programa con asignaturas de un curso con un mensaje al inicio
 // Clase que representa asignaturas de un curso.
 
 class Asignatura
 {
+//Propiedad 
     public string Nombre { get; set; }
-
+//Constructor
     public Asignatura(string nombre)
     {
         Nombre = nombre;
@@ -23,5 +25,5 @@ var asignaturas = new System.Collections.Generic.List<Asignaturas>()
 // Mostrar cada asignatura con el mensaje
 foreach (var asignatura in asignaturas)
 {
-    System.Console.WriteLine("Yo estudio " + asignatura.Nombre);
+    System.Console.WriteLine("Yo estudio " + asignatura.Nombre); //Imprime mensaje con asignatura
 }
