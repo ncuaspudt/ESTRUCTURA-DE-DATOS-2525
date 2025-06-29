@@ -1,41 +1,53 @@
 // Realizare un programa que asigne asignaturas de un curso con POO.
 
+//Clase Asignaturas
+using System;
+using System.Collections.Generic;
 
+// Clase que representa una asignatura
 public class Asignaturas
 {
+    // Propiedad para el nombre de la asignatura
     public string Nombre { get; set; }
+
+    // Constructor que recibe el nombre como parámetro
     public Asignaturas(string nombre)
-    { 
+    {
         Nombre = nombre;
-      }
-      public string ObtenerNombre()
-{
-  return Nombre;
+    }
+
+    // Método que devuelve el nombre de la asignatura
+    public string ObtenerNombre()
+    {
+        return Nombre;
+    }
 }
-}
+
+// Clase que representa un curso con varias asignaturas
 public class Curso
 {
-    private System.Collections.Generic.List<Asignatura> asignaturas;
+    // Lista privada de asignaturas
+    private List<Asignaturas> asignaturas;
 
+    // Constructor que inicializa la lista con algunas asignaturas
     public Curso()
     {
-        asignaturas = new System.Collections.Generic.List<Asignatura>();
-        asignaturas.Add(new Asignatura("Matemáticas"));
-        asignaturas.Add(new Asignatura("Educación Física"));
-        asignaturas.Add(new Asignatura("Lengua y Literatura"));
-        asignaturas.Add(new Asignatura("ECA"));
-        asignaturas.Add(new Asignatura("Cívica"));
-        asignaturas.Add(new Asignatura("Ciencias Naturales"));
-        asignaturas.Add(new Asignatura("Estudios Sociales"));
-        asignaturas.Add(new Asignatura("Inglés"));
+        asignaturas = new List<Asignaturas>();
+        asignaturas.Add(new Asignaturas("Matemáticas"));
+        asignaturas.Add(new Asignaturas("Física"));
+        asignaturas.Add(new Asignaturas("Lengua y Literatura"));
+        asignaturas.Add(new Asignaturas("Historia"));
+        asignaturas.Add(new Asignaturas("Química"));
+     
     }
 
-  public void MostrarAsignaturas()
-  {
-    Console.WriteLine("Asignaturas de curso:");
-    foreach (var asignatura in asignaturas)
+    // Método público para mostrar las asignaturas
+    public void MostrarAsignaturas()
     {
-      Console.WriteLine("_" + asignatura.ObtenerNombre());
+        Console.WriteLine("Asignaturas del curso:");
+        foreach (var asignatura in asignaturas)
+        {
+            Console.WriteLine("_ " + asignatura.ObtenerNombre());
+        }
     }
-  }
 }
