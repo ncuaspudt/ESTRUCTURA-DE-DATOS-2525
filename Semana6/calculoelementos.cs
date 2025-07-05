@@ -5,7 +5,7 @@ public class Nodo
     public int Data;  //Valor entero
     public Nodo Next; //Siguiente Nodo de la lista
     // Constructor
-    public Nodo(int Data)
+    public Nodo(int data)
     {
         Data = data;     //Representa el valor almacenado
         Next = null;     // Apunta a null, por lo tanto hace referencia al último nodo de la listas.
@@ -18,7 +18,7 @@ public class ListaSimple
     // Constructor para iniciar una lista vacia.
     public ListaSimple()
     {
-        head = null      //La lista inicializa sin nodos.
+        head = null;      //La lista inicializa sin nodos.
     }
 
     // Inserta un nuevo nodo en la lista del inicio.
@@ -67,7 +67,7 @@ public class ListaSimple
             {
                 Nodo actual = head;
                 // Recorre los nodos
-                while (actual.Next != null)
+                while (actual.Next.Next != null)
                 {
                     actual = actual.Next;
                 }
@@ -76,9 +76,9 @@ public class ListaSimple
         }
     }
     // Busca el nodo
-    public Nodo? Buscar(int dato)
+    public Nodo Buscar(int dato)
     {
-        Nodo? actual = head;
+        Nodo actual = head;
         if (head != null)
             while (actual != null && actual.Data != dato)
             {
@@ -89,7 +89,7 @@ public class ListaSimple
     //Imprime la lista en consola
     public void DibujarLista()
     {
-        Nodo? actual = head;
+        Nodo actual = head;
         System.Console.Write("head -->");
         while (actual != null)
         {
@@ -123,12 +123,12 @@ public class ListaSimple
     {
         ListaSimple lista = new ListaSimple();
         //Insertar nodos al inicio
-        lista.InsertarInicio(2);
         lista.InsertarInicio(3);
-        lista.InsertarInicio(100);
+        lista.InsertarInicio(4);
+        lista.InsertarInicio(200);
         // Insetar nodos al final
-        lista.InsertarFinal(20);
-        lista.InsertarFinal(230);
+        lista.InsertarFinal(30);
+        lista.InsertarFinal(240);
         //Muestra lista en consola
         lista.DibujarLista();
         // Contar nodos y mostrar resultado en consola.
