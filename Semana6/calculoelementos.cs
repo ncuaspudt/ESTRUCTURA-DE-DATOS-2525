@@ -33,7 +33,7 @@ public class ListaSimple
     public void InsertarFinal(int dato)
     {
         Nodo nuevoNodo = new Nodo(dato);             // Crea nuevo nodo
-        if (head == null)                            // Si la lista esta vac{ia}
+        if (head == null)                            // Si la lista esta vacía
         {
             head = nuevoNodo;                        //Nuevo nodo es la cabeza
         }

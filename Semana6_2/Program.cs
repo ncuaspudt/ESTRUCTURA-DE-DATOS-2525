@@ -25,19 +25,19 @@ public class ListaSimple
 // Método para insertar un nuevo nodo al final de la lista.
     public void InsertarFinal(int dato)
     {
-        Nodo nuevoNodo = new Nodo(dato);
-        if (head == null)
+        Nodo nuevoNodo = new Nodo(dato);            // Crea nuevo nodo
+        if (head == null)                           // Si la lista esta vacía
         {
-            head = nuevoNodo;
+            head = nuevoNodo;                       //Nuevo nodo es la cabeza
         }
         else
         {
             Nodo actual = head;
-            while (actual.Next != null)
+            while (actual.Next != null)              // Recorre de nodo en nodo hasta el último.
             {
                 actual = actual.Next;
             }
-            actual.Next = nuevoNodo;
+            actual.Next = nuevoNodo;                   // Apunta el nodo actual al nuevo
         }
     }
 
