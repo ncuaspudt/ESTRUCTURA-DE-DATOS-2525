@@ -17,12 +17,12 @@ public class Nodo
 public class ListaSimple
 {
     Nodo head;                       //Primer nodo de la lista.
-
+//Constructor que inicializa un alista vacía.
     public ListaSimple()
     {
-        head = null;
+        head = null;                  //La lista inicializa sin nodos.
     }
-
+// Método para insertar un nuevo nodo al final de la lista.
     public void InsertarFinal(int dato)
     {
         Nodo nuevoNodo = new Nodo(dato);
