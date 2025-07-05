@@ -93,7 +93,7 @@ public class ListaSimple
     }
 }
 
-// Clase principal
+// Clase principal para ejecutar el programa
 class Program
 {
     static void Main(string[] args)
