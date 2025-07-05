@@ -104,7 +104,7 @@ public class ListaSimple
         System.Console.Write(" --> null");
         System.Console.WriteLine();
     }
-    // Cuenta y devuelve el número de nodos.
+    // Función que permite contar y devuelve el número de nodos.
     public int ContarElementos()
     {
         int contador = 0;
