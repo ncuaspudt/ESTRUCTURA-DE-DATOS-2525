@@ -3,20 +3,20 @@
 // Clase que representa un nodo
 public class Nodo
 {
-    public int Data;
-    public Nodo Next;
-
+    public int Data;                  //Valor entero
+    public Nodo Next;                 //Siguiente Nodo de la lista
+ // Constructor
     public Nodo(int data)
     {
-        Data = data;
-        Next = null;
+        Data = data;                  //Representa el valor almacenado          
+        Next = null;                  // Apunta a null, por lo tanto hace referencia al último nodo de la listas.
     }
 }
 
-// Lista enlazada simple
+//  Clase enlazada ListaSimple
 public class ListaSimple
 {
-    Nodo head;
+    Nodo head;                       //Primer nodo de la lista.
 
     public ListaSimple()
     {
