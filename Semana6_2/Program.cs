@@ -109,7 +109,7 @@ class Program
         }
 
         // Mostrar lista inicial
-        System.Console.WriteLine("Lista original completa:");
+        System.Console.WriteLine("Lista completa:");
         lista.DibujarLista();
 
         // Leer rango desde teclado
