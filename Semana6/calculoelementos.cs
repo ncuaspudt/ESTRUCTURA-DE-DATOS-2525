@@ -1,6 +1,7 @@
 // Función que calcule el número de elementos de una lista.
 // Clase que representa un nodo
 public class Nodo
+
 {
     public int Data;  //Valor entero
     public Nodo Next; //Siguiente Nodo de la lista
