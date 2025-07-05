@@ -40,7 +40,7 @@ public class ListaSimple
             actual.Next = nuevoNodo;                   // Apunta el nodo actual al nuevo
         }
     }
-
+// Método para imprimir lista en consola
     public void DibujarLista()
     {
         Nodo actual = head;
