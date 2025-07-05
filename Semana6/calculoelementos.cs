@@ -1,5 +1,5 @@
 // Función que calcule el número de elementos de una lista.
-// Clas e que representa un nodo
+// Clase que representa un nodo
 public class Nodo
 {
     public int Data;  //Valor entero
@@ -7,14 +7,18 @@ public class Nodo
     // Constructor
     public Nodo(int Data)
     {
-        head = null;
+        Data = data;     //Representa el valor almacenado
+        Next = null;     // Apunta a null, por lo tanto hace referencia al último nodo de la listas.
     }
+  }
+// clase de lista enlazada simple
+  public class ListaSimple
     public void InsertarInicio(int dato)
-    {
-        var nuevoNodo = new Nodo(dato);
-        nuevoNodo.Next = head;
-        head = nuevoNodo;
-    }
+{
+    var nuevoNodo = new Nodo(dato);
+    nuevoNodo.Next = head;
+    head = nuevoNodo;
+}
     public void InsertarFinal(int dato)
     {
         Nodo nuevoNodo = new Nodo(dato);
