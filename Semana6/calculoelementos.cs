@@ -46,6 +46,7 @@ public class Nodo
             actual.Next = nuevoNodo;                  // Apunta el nodo actual al nuevo
         }
     }
+// Elimina el nodo que esta al inicio de la lista
     public void EliminarInicio()
     {
         if (head != null)
@@ -53,6 +54,7 @@ public class Nodo
             head = head.Next;
         }
     }
+ // Elimina el nodo que esta al final de la lista  
     public void EliminarFinal()
     {
         if (head != null)
