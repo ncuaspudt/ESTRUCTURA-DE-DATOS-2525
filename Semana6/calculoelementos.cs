@@ -130,6 +130,7 @@ public class ListaSimple
         // Insetar nodos al final
         lista.InsertarFinal(30);
         lista.InsertarFinal(240);
+        lista.InsertarFinal(250);
         //Muestra lista en consola
         lista.DibujarLista();
         // Contar nodos y mostrar resultado en consola.
