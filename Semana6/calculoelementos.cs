@@ -13,12 +13,18 @@ public class Nodo
   }
 // clase de lista enlazada simple
   public class ListaSimple
+  {
+    Nodo head;           //Primer nodo de la lista.
+    // Constructor para iniciar una lista vacia.
+    public ListaSimple()
+    
+
     public void InsertarInicio(int dato)
-{
-    var nuevoNodo = new Nodo(dato);
-    nuevoNodo.Next = head;
-    head = nuevoNodo;
-}
+    {
+        var nuevoNodo = new Nodo(dato);
+        nuevoNodo.Next = head;
+        head = nuevoNodo;
+    }
     public void InsertarFinal(int dato)
     {
         Nodo nuevoNodo = new Nodo(dato);
