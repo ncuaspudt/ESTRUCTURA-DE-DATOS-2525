@@ -64,7 +64,7 @@ public class ListaSimple
         while (actual != null)
         {
             contador++;
-            actual = actual.Next;
+            actual = actual.Next;                          //Avanza al siguiente nodo.
         }
         return contador;
     }
