@@ -17,6 +17,9 @@ public class Nodo
     Nodo head;           //Primer nodo de la lista.
     // Constructor para iniciar una lista vacia.
     public ListaSimple()
+    {  
+        head= null      //La lista inicializa sin nodos.
+    }
     
 
     public void InsertarInicio(int dato)
