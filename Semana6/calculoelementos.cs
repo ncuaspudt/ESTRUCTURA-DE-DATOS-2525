@@ -21,13 +21,14 @@ public class Nodo
         head= null      //La lista inicializa sin nodos.
     }
     
-
+// Inserta un nuevo nodo en la lista del inicio.
     public void InsertarInicio(int dato)
     {
-        var nuevoNodo = new Nodo(dato);
+        var nuevoNodo = new Nodo(dato);              //Crea un nuevo nodo
         nuevoNodo.Next = head;
-        head = nuevoNodo;
+        head = nuevoNodo;                             
     }
+// Inserta un nuevo nodo al final de la lista.
     public void InsertarFinal(int dato)
     {
         Nodo nuevoNodo = new Nodo(dato);
