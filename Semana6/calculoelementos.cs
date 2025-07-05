@@ -136,3 +136,4 @@ public class ListaSimple
         System.Console.WriteLine("Cantidad de nodos en la lista: " + total);
         }
     }
+
