@@ -52,11 +52,11 @@ public class ListaSimple
             {
                 System.Console.Write(" -->");
             }
-            actual = actual.Next;
+            actual = actual.Next;                          //Avanza al siguiente nodo
         }
         System.Console.Write(" --> null\n");
     }
-
+// Método para contar y devolver el número de nodos.
     public int ContarElementos()
     {
         int contador = 0;
