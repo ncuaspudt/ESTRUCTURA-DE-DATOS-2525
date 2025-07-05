@@ -57,15 +57,16 @@ public class Nodo
  // Elimina el nodo que esta al final de la lista  
     public void EliminarFinal()
     {
-        if (head != null)
+        if (head != null)                      // Si la lista está vacía
         {
-            if (head.Next == null)
+            if (head.Next == null)             // Si solo hay un nodo
             {
-                head = null;
+                head = null;                   // Lista vacía
             }
             else
             {
                 Nodo actual = head;
+                // Recorre los nodos
                 while (actual.Next != null)
                 {
                     actual = actual.Next;
@@ -74,16 +75,18 @@ public class Nodo
             }
         }
     }
+    // Busca el nodo
     public Nodo? Buscar(int dato)
     {
         Nodo? actual = head;
         if (head != null)
             while (actual != null && actual.Data != dato)
             {
-                actual = actual.Next;
+                actual = actual.Next;   // Avanza al siguiente nodo
             }
-        return actual;
+        return actual;                  // Devuelve el nodo encontrado en null
     }
+    //Imprime la lista en consola
     public void DibujarLista()
     {
         Nodo? actual = head;
