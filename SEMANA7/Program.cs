@@ -1,5 +1,5 @@
-﻿
-
+﻿//Verificación de paréntesis balanceados en una expresión matemática
+//Clase programa
 class Program
 {
     // Función que verifica si los paréntesis, corchetes y llaves están balanceados
@@ -54,6 +54,7 @@ class Program
         // Evaluamos si la expresión está balanceada
         if (EstaBalanceado(expresion))
         {
+        //Imprime fórmula balanceada al ingresar la expresión matemática
             System.Console.WriteLine("Fórmula balanceada.");
         }
         else
