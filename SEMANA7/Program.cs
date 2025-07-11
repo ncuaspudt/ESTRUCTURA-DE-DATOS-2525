@@ -5,7 +5,7 @@ class Program
     // Método que verifica si la expresión esta balaceada
     static bool EstaBalanceado(string expresion)
     {
-        // Creamos una pila para almacenar los símbolos de apertura
+        // Creamos una pila que almacena los simbolos
         System.Collections.Generic.Stack<char> pila = new System.Collections.Generic.Stack<char>();
 
         // Recorremos cada carácter de la expresión
