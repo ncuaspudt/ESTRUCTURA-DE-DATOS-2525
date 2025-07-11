@@ -43,7 +43,7 @@ class Program
         }
     }
 
-    // Muestra el estado actual de las torres
+    // Permite vizualizar el estado actual de las  tres torres
     static void ImprimirTorres()
     {
         System.Console.WriteLine("\nEstado de las torres:");
