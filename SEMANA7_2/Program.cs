@@ -24,7 +24,7 @@ class Program
         MoverDiscos(n, torreA, torreC, torreB, "A", "C", "B");
     }
 
-    // Método recursivo que simula el movimiento de los discos
+    // Método que simula el movimiento de los discos
     static void MoverDiscos(int n, System.Collections.Stack origen, System.Collections.Stack destino, System.Collections.Stack auxiliar,
                             string nombreOrigen, string nombreDestino, string nombreAuxiliar)
     {
