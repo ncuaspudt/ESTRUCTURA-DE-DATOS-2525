@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Semana6_2\\Semana6_2.csproj": {}
+    "c:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\SEMANA7\\SEMANA7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Semana6_2\\Semana6_2.csproj": {
+    "c:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\SEMANA7\\SEMANA7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Semana6_2\\Semana6_2.csproj",
-        "projectName": "Semana6_2",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Semana6_2\\Semana6_2.csproj",
+        "projectUniqueName": "c:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\SEMANA7\\SEMANA7.csproj",
+        "projectName": "SEMANA7",
+        "projectPath": "c:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\SEMANA7\\SEMANA7.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Semana6_2\\obj\\",
+        "outputPath": "c:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\SEMANA7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"

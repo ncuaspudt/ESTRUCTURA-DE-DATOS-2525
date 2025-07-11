@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-6\\Tareasemana5\\Tareasemana5.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Tareasemana5\\Tareasemana5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-6\\Tareasemana5\\Tareasemana5.csproj": {
+    "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Tareasemana5\\Tareasemana5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-6\\Tareasemana5\\Tareasemana5.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Tareasemana5\\Tareasemana5.csproj",
         "projectName": "Tareasemana5",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-6\\Tareasemana5\\Tareasemana5.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Tareasemana5\\Tareasemana5.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-6\\Tareasemana5\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Tareasemana5\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
