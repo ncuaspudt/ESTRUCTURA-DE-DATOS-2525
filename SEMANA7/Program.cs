@@ -1,4 +1,7 @@
 ﻿//Verificación de paréntesis balanceados en una expresión matemática 
+// Ejemplo:
+// Entrada: {7 + (8 * 5) - [(9 - 7) + (4 + 1)]}
+// Salida esperada: Fórmula balanceada.
 //Clase programa
 class Program
 {
@@ -57,10 +60,7 @@ class Program
             // Imprime fórmula balanceada al ingresar la expresión matemática
             System.Console.WriteLine("Fórmula balanceada.");
         }
-        else
-        {
-            // Imprime fórmula no balanceada en caso de error en en expresión matemática.
-            System.Console.WriteLine("Fórmula no balanceada.");
-        }
+        
+        
     }
 }
