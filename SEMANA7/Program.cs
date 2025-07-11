@@ -1,19 +1,19 @@
-﻿//Verificación de paréntesis balanceados en una expresión matemática
+﻿//Verificación de paréntesis balanceados en una expresión matemática 
 //Clase programa
 class Program
 {
-    // Método que verifica si la expresión esta balaceada
+    // Método que verifica si la expresión está balanceada
     static bool EstaBalanceado(string expresion)
     {
-        // Creamos una pila que almacena los simbolos
-        System.Collections.Generic.Stack<char> pila = new System.Collections.Generic.Stack<char>();
+        // Creamos una pila clásica que almacena objetos
+        System.Collections.Stack pila = new System.Collections.Stack();
 
-        // Recorremos cada carácter de la expresión
+        // Avanza desde el primer hasta el último carácter.
         for (int i = 0; i < expresion.Length; i++)
         {
             char c = expresion[i];
 
-            // Si es símbolo de apertura, lo agregamos a la pila
+            // Si es símbolo de apertura
             if (c == '(' || c == '{' || c == '[')
             {
                 pila.Push(c);
@@ -27,10 +27,10 @@ class Program
                     return false;
                 }
 
-                // Sacamos el último símbolo de apertura
-                char tope = pila.Pop();
+                // Saque el último símbolo de apertura 
+                char tope = (char)pila.Pop();
 
-                // Verificamos si el símbolo abierto coincide con el cerrado
+                // Se verifica la coincidencia del simbolo abierto y cerrado.
                 if ((c == ')' && tope != '(') ||
                     (c == '}' && tope != '{') ||
                     (c == ']' && tope != '['))
@@ -48,18 +48,18 @@ class Program
     static void Main(string[] args)
     {
         // Solicitamos la expresión al usuario
-        System.Console.WriteLine("Ingrese la expresión matemática:");
+        System.Console.WriteLine("Ingrese la expresión matemática asignada por el docente:");
         string expresion = System.Console.ReadLine();
 
         // Evaluamos si la expresión está balanceada
         if (EstaBalanceado(expresion))
         {
-        //Imprime fórmula balanceada al ingresar la expresión matemática
+            // Imprime fórmula balanceada al ingresar la expresión matemática
             System.Console.WriteLine("Fórmula balanceada.");
         }
         else
         {
-        // Imprime fórmula no balanceada en caso de error en en expresión matemática.
+            // Imprime fórmula no balanceada en caso de error en en expresión matemática.
             System.Console.WriteLine("Fórmula no balanceada.");
         }
     }
