@@ -53,6 +53,7 @@ class Program
         System.Console.WriteLine("------------------------------\n");
     }
 
+
     // Imprime una torre específica
     static void MostrarTorre(string nombre, System.Collections.Stack torre)
     {
