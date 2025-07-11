@@ -2,7 +2,7 @@
 //Clase programa
 class Program
 {
-    // Función que verifica si los paréntesis, corchetes y llaves están balanceados
+    // Método que verifica si la expresión esta balaceada
     static bool EstaBalanceado(string expresion)
     {
         // Creamos una pila para almacenar los símbolos de apertura
@@ -59,6 +59,7 @@ class Program
         }
         else
         {
+        // Imprime fórmula no balanceada en caso de error en en expresión matemática.
             System.Console.WriteLine("Fórmula no balanceada.");
         }
     }
