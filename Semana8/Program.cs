@@ -27,7 +27,7 @@ public class SistemaAsientos
     // Cola que representa la fila de personas
     private System.Collections.Generic.Queue<Persona> fila = new System.Collections.Generic.Queue<Persona>();
 
-    // Número máximo de asientos disponibles en la atracción
+    // Número máximo de asientos 
     private const int LIMITE = 30;
 
     // Método para registrar a una persona en la fila
