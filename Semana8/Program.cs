@@ -102,7 +102,7 @@ public class ProgramaPrincipal
         // Crear una instancia del sistema 
         SistemaAsientos sistema = new SistemaAsientos();
 
-        // Registrar automáticamente 30 personas con nombres "Usuario1", "Usuario2", ..., "Usuario30"
+        // Registrar automáticamente 30 personas con nombres "Usuario"
         for (int i = 1; i <= 30; i++)
         {
             sistema.RegistrarPersona("Usuario" + i);
