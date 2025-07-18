@@ -54,7 +54,7 @@ public class SistemaAsientos
 
         int posicion = 1;
 
-        // Recorre la fila y muestra cada persona con su número de posición en la cola
+        // Recorre la fila y muestra cada persona con su número de posición
         foreach (Persona persona in fila)
         {
             System.Console.WriteLine("Fila #" + posicion + ": " + persona.Nombre);
