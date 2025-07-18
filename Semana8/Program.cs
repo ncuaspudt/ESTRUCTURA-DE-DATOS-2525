@@ -108,7 +108,7 @@ public class ProgramaPrincipal
             sistema.RegistrarPersona("Usuario" + i);
         }
 
-        // Mostrar la fila antes de asignar asientos (reportería)
+        // Mostrar la fila antes de asignar asiento
         sistema.VerFila();
 
         // Asignar los asientos cuando haya 30 personas registradas
