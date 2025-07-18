@@ -8,13 +8,13 @@ public class Persona
     // Atributo que guarda el número de asiento asignado
     public int Asiento;
 
-    // Constructor que inicializa el nombre al crear la persona
+    // Constructor que inicializa el nombre al crear un objeto
     public Persona(string nombre)
     {
         Nombre = nombre;
     }
 
-    // Método que muestra el nombre y el número de asiento asignado
+    // Método que muestra el nombre y  número de asiento
     public void MostrarDatos()
     {
         System.Console.WriteLine("Nombre: " + Nombre + ", Asiento: " + Asiento);
