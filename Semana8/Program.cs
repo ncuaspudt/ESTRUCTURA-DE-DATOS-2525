@@ -62,7 +62,7 @@ public class SistemaAsientos
         }
     }
 
-    // Método que asigna los asientos solo cuando se haya completado la fila (30 personas)
+    // Método que asigna los asientos 
     public void Asignar()
     {
         // Verifica si la fila no está completa
