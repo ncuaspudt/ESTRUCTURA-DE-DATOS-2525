@@ -47,7 +47,7 @@ public class SistemaAsientos
         }
     }
 
-    // Método para mostrar la fila actual (reportería con posición)
+    // Método para mostrar la fila actual 
     public void VerFila()
     {
         System.Console.WriteLine("\n Fila actual (en orden de llegada):");
