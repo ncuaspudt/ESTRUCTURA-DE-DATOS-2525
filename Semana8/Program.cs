@@ -1,4 +1,5 @@
-﻿// Clase que representa a una persona en la fila
+﻿// Sistema de Asignacion de 30 asientos, que simula una fila de personas que van a subir a un atractivo en el parque
+// Clase persona
 public class Persona
 {
     // Atributo que guarda el nombre de la persona
