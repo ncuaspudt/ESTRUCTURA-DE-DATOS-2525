@@ -76,7 +76,7 @@ public class SistemaAsientos
 
         int numeroAsiento = 1;
 
-        // Asigna asientos a cada persona en orden
+        // Asigna asientos a cada persona 
         while (fila.Count > 0)
         {
             // Se saca la persona del frente de la cola
