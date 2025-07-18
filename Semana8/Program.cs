@@ -24,7 +24,7 @@ public class Persona
 // Clase que maneja el sistema de asignación de asientos
 public class SistemaAsientos
 {
-    // Cola que representa la fila de personas (estructura FIFO)
+    // Cola que representa la fila de personas
     private System.Collections.Generic.Queue<Persona> fila = new System.Collections.Generic.Queue<Persona>();
 
     // Número máximo de asientos disponibles en la atracción
