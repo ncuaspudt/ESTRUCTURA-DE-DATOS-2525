@@ -42,15 +42,15 @@ public class SistemaAsientos
         }
         else
         {
-            // Si ya no hay asientos, muestra mensaje
-            System.Console.WriteLine("✖ No hay más asientos para: " + nombre);
+            
+            System.Console.WriteLine(" No hay más asientos para: " + nombre);
         }
     }
 
     // Método para mostrar la fila actual (reportería con posición)
     public void VerFila()
     {
-        System.Console.WriteLine("\n📋 Fila actual (en orden de llegada):");
+        System.Console.WriteLine("\n Fila actual (en orden de llegada):");
 
         int posicion = 1;
 
