@@ -33,7 +33,7 @@ public class SistemaAsientos
     // Método para registrar a una persona en la fila
     public void RegistrarPersona(string nombre)
     {
-        // Verifica si aún hay espacio disponible
+        // Verifica espacio disponible
         if (fila.Count < LIMITE)
         {
             // Agrega a la persona al final de la cola
