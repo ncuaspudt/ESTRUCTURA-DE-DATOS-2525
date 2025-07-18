@@ -82,7 +82,7 @@ public class SistemaAsientos
             // Se saca la persona del frente de la cola
             Persona persona = fila.Dequeue();
 
-            // Se le asigna el número de asiento correspondiente
+            // Se asigna el número de asiento 
             persona.Asiento = numeroAsiento;
 
             // Se muestra en consola la asignación
