@@ -96,10 +96,10 @@ public class SistemaAsientos
 // Clase principal que ejecuta el sistema
 public class ProgramaPrincipal
 {
-    // Método principal (Main) que inicia el programa
+    // Método que inicia el programa
     public static void Main(string[] args)
     {
-        // Crear una instancia del sistema de asignación
+        // Crear una instancia del sistema 
         SistemaAsientos sistema = new SistemaAsientos();
 
         // Registrar automáticamente 30 personas con nombres "Usuario1", "Usuario2", ..., "Usuario30"
