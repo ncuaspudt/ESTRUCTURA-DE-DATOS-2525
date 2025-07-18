@@ -115,6 +115,6 @@ public class ProgramaPrincipal
         sistema.Asignar();
 
         // Mensaje final
-        System.Console.WriteLine("\n✅ Proceso finalizado.");
+        System.Console.WriteLine("\n Proceso finalizado.");
     }
 }
