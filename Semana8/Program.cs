@@ -21,7 +21,7 @@ public class Persona
     }
 }
 
-// Clase que maneja el sistema de asignación de asientos para una atracción
+// Clase que maneja el sistema de asignación de asientos
 public class SistemaAsientos
 {
     // Cola que representa la fila de personas (estructura FIFO)
