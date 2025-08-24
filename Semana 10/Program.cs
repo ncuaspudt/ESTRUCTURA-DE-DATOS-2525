@@ -1,10 +1,10 @@
 ﻿// Universidad estal amazónica
 // El Gobierno Nacional, a través del Ministerio de Salud, requiere información sobre la campaña de vacunación contra el COVID-19.
-//Ciudadanos que no se han vacunado.
-//Ciudadanos que han recibido ambas dosis.
-//Ciudadanos que solo han recibido la vacuna de Pfizer.
-//Ciudadanos que solo han recibido la vacuna de AstraZeneca
-//Clase Programa
+// Ciudadanos que no se han vacunado.
+// Ciudadanos que han recibido ambas dosis.
+// Ciudadanos que solo han recibido la vacuna de Pfizer.
+// Ciudadanos que solo han recibido la vacuna de AstraZeneca
+// Clase Programa
 class Program
 {
     static void Main()
