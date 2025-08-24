@@ -44,7 +44,6 @@ public class Vacunas
             int index = random.Next(listaCiudadanos.Count);
             astraZeneca.Add(listaCiudadanos[index]);
         }
-
         // Ciudadanos con ambas dosis (intersección)
         System.Collections.Generic.HashSet<string> ambasDosis = new System.Collections.Generic.HashSet<string>(pfizer);
         ambasDosis.IntersectWith(astraZeneca);
