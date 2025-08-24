@@ -1,11 +1,12 @@
-﻿class Program
+﻿//Clase Programa
+class Program
 {
     static void Main()
     {
         Vacunas.Run();
     }
 }
-
+//Clase Vacunas
 public class Vacunas
 {
     public static void Run()
