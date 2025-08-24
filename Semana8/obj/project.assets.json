@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Semana8\\Semana8.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-9\\Semana8\\Semana8.csproj",
       "projectName": "Semana8",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Semana8\\Semana8.csproj",
+      "projectPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-9\\Semana8\\Semana8.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-7\\Semana8\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Desktop\\ESTRUCTURADEDATOS2025\\ESTRUCTURA-DE-DATOS-2525-9\\Semana8\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config"
