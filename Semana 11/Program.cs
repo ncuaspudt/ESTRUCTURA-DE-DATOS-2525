@@ -34,6 +34,8 @@ public class TraductorBasico
         int opcion = -1;
 
         while (opcion != 0)
+
+    // Se imprime para vizualizar en la Consola de depuración el menu
         {
             System.Console.WriteLine("==================== MENÚ ====================");
             System.Console.WriteLine("1. Traducir una frase");
