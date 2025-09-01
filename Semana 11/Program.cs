@@ -2,8 +2,10 @@
 // Clase  traductor básico
 public class TraductorBasico
 {
+// Método principal 
     public static void run()
     {
+// Se implementa un diccionario con palabras en español con su respectiva traducción.
         System.Collections.Generic.Dictionary<string, string> diccionario = new System.Collections.Generic.Dictionary<string, string>()
         {
             { "tiempo", "time" },
