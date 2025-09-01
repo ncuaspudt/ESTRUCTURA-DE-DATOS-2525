@@ -15,7 +15,6 @@ public class TraductorBasico
             { "día", "day" },
             { "cosa", "thing" },
             { "hombre", "man" },
-            { "mundo", "world" },
             { "vida", "life" },
             { "mano", "hand" },
             { "parte", "part" },
@@ -24,11 +23,8 @@ public class TraductorBasico
             { "mujer", "woman" },
             { "lugar", "place" },
             { "trabajo", "work" },
-            { "semana", "week" },
             { "caso", "case" },
-            { "punto", "point" },
-            { "gobierno", "government" },
-            { "empresa", "company" }
+            
         };
 
         int opcion = -1;
@@ -55,6 +51,7 @@ public class TraductorBasico
 
                 for (int i = 0; i < palabras.Length; i++)
                 {
+    // Guarda signos de puntuación
                     string original = palabras[i];
                     string palabraLimpia = original.ToLower().Trim(',', '.', ';', ':', '!', '?');
 
@@ -78,7 +75,7 @@ public class TraductorBasico
             {
                 System.Console.Write("Palabra en español: ");
                 string esp = System.Console.ReadLine().ToLower();
-
+// Solicitamos la traducción en inglés
                 System.Console.Write("Traducción en inglés: ");
                 string eng = System.Console.ReadLine().ToLower();
 
@@ -92,15 +89,17 @@ public class TraductorBasico
                     System.Console.WriteLine("Esa palabra ya está en el diccionario.");
                 }
             }
+// Salir del programa
             else if (opcion == 0)
             {
                 System.Console.WriteLine("Saliendo...");
             }
             else
             {
+                // Imprime la frase no válido cuando el usuario ingresa una palabra que no esta en el diccionario.
                 System.Console.WriteLine("Opción no válida.");
             }
-
+// Imprime línea en blanco
             System.Console.WriteLine();
         }
     }
