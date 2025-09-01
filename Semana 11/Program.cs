@@ -108,9 +108,10 @@ public class TraductorBasico
 // Clase que permite ejecutar el programa
 public class Ejecutar
 {
-// Método clave para ejecutar el programa
+    // Método clave para ejecutar el programa
     public static void Main()
     {
         TraductorBasico.run();
     }
+    
 }
