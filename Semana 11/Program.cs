@@ -1,4 +1,6 @@
-﻿public class TraductorBasico
+﻿// Aplicación en C# que funcione como traductor básico entre los idiomas de ingles y español mediante el uso de diccionarios.
+// Clase  traductor básico
+public class TraductorBasico
 {
     public static void run()
     {
