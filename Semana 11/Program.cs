@@ -95,6 +95,7 @@ public class TraductorBasico
                 System.Console.WriteLine("Saliendo...");
             }
             else
+            
             {
                 // Imprime la frase no válido cuando el usuario ingresa una palabra que no esta en el diccionario.
                 System.Console.WriteLine("Opción no válida.");
