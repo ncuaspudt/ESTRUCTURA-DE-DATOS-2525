@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\bin\Debug\net9.0\Semana 11.exe
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\bin\Debug\net9.0\Semana 11.deps.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\bin\Debug\net9.0\Semana 11.runtimeconfig.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\bin\Debug\net9.0\Semana 11.dll
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\bin\Debug\net9.0\Semana 11.pdb
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\Semana 11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\Semana 11.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\Semana 11.AssemblyInfo.cs
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\Semana 11.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\Semana 11.sourcelink.json
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\Semana 11.dll
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\refint\Semana 11.dll
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\Semana 11.pdb
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\Semana 11.genruntimeconfig.cache
+C:\Users\DELL\Desktop\ESTRUCTURADEDATOS2025\ESTRUCTURA-DE-DATOS-2525-9\Semana 11\obj\Debug\net9.0\ref\Semana 11.dll
