@@ -17,20 +17,20 @@ public class Vacunas
 {
     public static void Run()
     {
-        System.Random random = new System.Random();
+        Random random = new Random();
 
         // Crear 500 ciudadanos "Ciudadano 1" a "Ciudadano 500"
-        System.Collections.Generic.HashSet<string> todos = new System.Collections.Generic.HashSet<string>();
+        HashSet<string> todos = new HashSet<string>();
         for (int i = 1; i <= 500; i++)
         {
             todos.Add("Ciudadano " + i);
         }
 
         // Convertir a lista para selección aleatoria
-        System.Collections.Generic.List<string> listaCiudadanos = new System.Collections.Generic.List<string>(todos);
+        List<string> listaCiudadanos = new List<string>(todos);
 
         // Seleccionar 75 vacunados Pfizer únicos
-        System.Collections.Generic.HashSet<string> pfizer = new System.Collections.Generic.HashSet<string>();
+        HashSet<string> pfizer = new HashSet<string>();
         while (pfizer.Count < 75)
         {
             int index = random.Next(listaCiudadanos.Count);
@@ -38,30 +38,30 @@ public class Vacunas
         }
 
         // Seleccionar 75 vacunados AstraZeneca únicos
-        System.Collections.Generic.HashSet<string> astraZeneca = new System.Collections.Generic.HashSet<string>();
+        HashSet<string> astraZeneca = new HashSet<string>();
         while (astraZeneca.Count < 75)
         {
             int index = random.Next(listaCiudadanos.Count);
             astraZeneca.Add(listaCiudadanos[index]);
         }
         // Ciudadanos con ambas dosis (intersección)
-        System.Collections.Generic.HashSet<string> ambasDosis = new System.Collections.Generic.HashSet<string>(pfizer);
+        HashSet<string> ambasDosis = new HashSet<string>(pfizer);
         ambasDosis.IntersectWith(astraZeneca);
 
         // Ciudadanos solo Pfizer (diferencia)
-        System.Collections.Generic.HashSet<string> soloPfizer = new System.Collections.Generic.HashSet<string>(pfizer);
+        HashSet<string> soloPfizer = new HashSet<string>(pfizer);
         soloPfizer.ExceptWith(astraZeneca);
 
         // Ciudadanos solo AstraZeneca (diferencia)
-        System.Collections.Generic.HashSet<string> soloAstraZeneca = new System.Collections.Generic.HashSet<string>(astraZeneca);
+        HashSet<string> soloAstraZeneca = new HashSet<string>(astraZeneca);
         soloAstraZeneca.ExceptWith(pfizer);
 
         // Ciudadanos vacunados (unión)
-        System.Collections.Generic.HashSet<string> vacunados = new System.Collections.Generic.HashSet<string>(pfizer);
+        HashSet<string> vacunados = new HashSet<string>(pfizer);
         vacunados.UnionWith(astraZeneca);
 
         // Ciudadanos no vacunados (todos menos vacunados)
-        System.Collections.Generic.HashSet<string> noVacunados = new System.Collections.Generic.HashSet<string>(todos);
+        HashSet<string> noVacunados = new HashSet<string>(todos);
         noVacunados.ExceptWith(vacunados);
 
         // Mostrar resultados

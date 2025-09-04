@@ -6,7 +6,7 @@ public class TraductorBasico
     public static void run()
     {
 // Se implementa un diccionario con palabras en español con su respectiva traducción.
-        System.Collections.Generic.Dictionary<string, string> diccionario = new System.Collections.Generic.Dictionary<string, string>()
+        Dictionary<string, string> diccionario = new Dictionary<string, string>()
         {
             { "tiempo", "time" },
             { "persona", "person" },
@@ -33,18 +33,18 @@ public class TraductorBasico
 
     // Se imprime para vizualizar en la Consola de depuración el menu
         {
-            System.Console.WriteLine("==================== MENÚ ====================");
-            System.Console.WriteLine("1. Traducir una frase");
-            System.Console.WriteLine("2. Agregar palabras al diccionario");
-            System.Console.WriteLine("0. Salir");
-            System.Console.Write("Seleccione una opción: ");
+            Console.WriteLine("==================== MENÚ ====================");
+            Console.WriteLine("1. Traducir una frase");
+            Console.WriteLine("2. Agregar palabras al diccionario");
+            Console.WriteLine("0. Salir");
+            Console.Write("Seleccione una opción: ");
 
             string entrada = System.Console.ReadLine();
             int.TryParse(entrada, out opcion);
 
             if (opcion == 1)
             {
-                System.Console.Write("Ingrese la frase en español: ");
+                Console.Write("Ingrese la frase en español: ");
                 string frase = System.Console.ReadLine();
 
                 string[] palabras = frase.Split(' ');
@@ -69,39 +69,39 @@ public class TraductorBasico
                 }
 
                 string resultado = string.Join(" ", palabras);
-                System.Console.WriteLine("Traducción: " + resultado);
+                Console.WriteLine("Traducción: " + resultado);
             }
             else if (opcion == 2)
             {
-                System.Console.Write("Palabra en español: ");
+                Console.Write("Palabra en español: ");
                 string esp = System.Console.ReadLine().ToLower();
 // Solicitamos la traducción en inglés
-                System.Console.Write("Traducción en inglés: ");
+                Console.Write("Traducción en inglés: ");
                 string eng = System.Console.ReadLine().ToLower();
 
                 if (!diccionario.ContainsKey(esp))
                 {
                     diccionario.Add(esp, eng);
-                    System.Console.WriteLine("Palabra agregada correctamente.");
+                    Console.WriteLine("Palabra agregada correctamente.");
                 }
                 else
                 {
-                    System.Console.WriteLine("Esa palabra ya está en el diccionario.");
+                    Console.WriteLine("Esa palabra ya está en el diccionario.");
                 }
             }
 // Salir del programa
             else if (opcion == 0)
             {
-                System.Console.WriteLine("Saliendo...");
+                Console.WriteLine("Saliendo...");
             }
             else
             
             {
                 // Imprime la frase no válido cuando el usuario ingresa una palabra que no esta en el diccionario.
-                System.Console.WriteLine("Opción no válida.");
+                Console.WriteLine("Opción no válida.");
             }
 // Imprime línea en blanco
-            System.Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }
