@@ -14,22 +14,22 @@ class Libro
         Titulo = titulo;
         Autor = autor;
     }
-    // Método para mostrar la información del libro
+    // Método para mostrar información
     public string Mostrar()
     {
         return "ISBN: " + ISBN + ", Título: " + Titulo + ", Autor: " + Autor;
     }
 }
-
+// Clase 
 class SistemaBilbioteca
 {
-    // Mapa: Diccionario que asocia ISBN (clave) con un objeto Libro (valor)
+    // Mapa pares clave-valor
     static Dictionary<string, Libro> biblioteca = new Dictionary<string, Libro>();
 
-    // Conjunto: para almacenar solo los ISBN únicos
+    // Conjunto alamcenamiento únicos
     static HashSet<string> conjuntoISBN = new HashSet<string>();
 
-    // Agrega un libro si el ISBN no está ya registrado
+    // Método agregar libro
     static void AgregarLibro(string isbn, string titulo, string autor)
     {
         if (!conjuntoISBN.Contains(isbn))
