@@ -21,13 +21,13 @@ class Libro
     }
 }
 
-class Programa
+class SistemaBilbioteca
 {
     // Mapa: Diccionario que asocia ISBN (clave) con un objeto Libro (valor)
-    static System.Collections.Generic.Dictionary<string, Libro> biblioteca = new System.Collections.Generic.Dictionary<string, Libro>();
+    static Dictionary<string, Libro> biblioteca = new Dictionary<string, Libro>();
 
     // Conjunto: para almacenar solo los ISBN únicos
-    static System.Collections.Generic.HashSet<string> conjuntoISBN = new System.Collections.Generic.HashSet<string>();
+    static HashSet<string> conjuntoISBN = new HashSet<string>();
 
     // Agrega un libro si el ISBN no está ya registrado
     static void AgregarLibro(string isbn, string titulo, string autor)
