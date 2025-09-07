@@ -26,7 +26,7 @@ class SistemaBilbioteca
     // Mapa pares clave-valor
     static Dictionary<string, Libro> biblioteca = new Dictionary<string, Libro>();
 
-    // Conjunto alamcenamiento únicos
+    // Conjunto almacenamiento únicos
     static HashSet<string> conjuntoISBN = new HashSet<string>();
 
     // Método agregar libro
@@ -36,11 +36,11 @@ class SistemaBilbioteca
         {
             conjuntoISBN.Add(isbn); // Añadir al conjunto
             biblioteca.Add(isbn, new Libro(isbn, titulo, autor)); // Añadir al mapa
-            System.Console.WriteLine("Libro agregado.");
+            Console.WriteLine("Libro agregado.");
         }
         else
         {
-            System.Console.WriteLine("ISBN ya registrado. No se agregó el libro.");
+            Console.WriteLine("ISBN ya registrado. No se agregó el libro.");
         }
     }
 
@@ -57,25 +57,26 @@ class SistemaBilbioteca
         }
     }
 
-    // Visualizar: mostrar todos los libros registrados
+    // Método que permite vizualizar todos los libros
     static void MostrarTodos()
     {
-        System.Console.WriteLine("Listado de todos los libros:");
+    // Imprime en la consola de depuración
+        Console.WriteLine("Lista de todos los libros:");
 
         foreach (var libro in biblioteca.Values)
         {
-            System.Console.WriteLine(libro.Mostrar());
+        Console.WriteLine(libro.Mostrar());
         }
     }
 
     static void Main()
     {
-        // Prueba: agregamos libros
-        AgregarLibro("978-3-16-148410-0", "C# Básico", "Juan Pérez");
-        AgregarLibro("978-0-13-110362-7", "Estructuras de Datos", "Ana López");
+        // Agregar libros
+        AgregarLibro("01", "Física", "Javier Muñoz");
+        AgregarLibro("02", "Programación", "Roque López");
 
         // Consulta de un libro
-        ConsultarLibro("978-3-16-148410-0");
+        ConsultarLibro("01");
 
         // Visualización de todos los libros
         MostrarTodos();
