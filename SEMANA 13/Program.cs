@@ -5,7 +5,7 @@
 public class Catalogo
 {
     // Método principal
-   public static void Main ()
+   public static void Main()
 
   {
     // Se crea un diccionario con 10 títulos de revistas de catálogo y una descripción
