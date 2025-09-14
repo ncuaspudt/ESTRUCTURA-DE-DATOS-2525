@@ -3,119 +3,71 @@
 // Clase para iniciar el programa
 public class Catalogo
 {
-    public nodo hi;
-    public nodo hd;
-    public nodo valor;
-}
-void insert (int value)
+    // Método de clase
+    static void run ();
+
 {
-if(root==NULL)
-root = new Node (value);
-else
-insertHelper(root, value);
+    // Se crea un diccionario con 10 títulos de revistas de catálogo y una descripción
+    Dictionary<string, string>Catalogo= new Dictionary<string, string>();
 {
-void insertHelper(Node*node, int value)
+    {"SciELO", "Revista científicas de diferentes materias y áreas"},
+    {"Biblat",l "Revista de Ciencias Sociales de América Latina"},
+    {"Discover", "Revista popular de divulgación"},
+    {"Iconos", "Revista de Ciencias Sociales"},
+    {"Alteridad", "Revista de Educación"},
+    {"Letras Verdes", "Revista Latinoaméricana de Estudios Socioambientales"},
+    {"URVIO", "Revista de Estudios de Seguridad"},
+    {"Latindex", "Revistas científicas de Amércia Latina"},
+    {"Nature", "Revista de Ciencia y Tecnología"},
+    {"The Lancet", "Revistas médicas antiguas"},
+};
+// Este menú interactivo permitira vizualizar en la Consola de depuración
+While(true)
 {
-    if (value < node->Key)
-    {
-        if (node->LeftChild==NULL)
-        node->LeftChild== new Node (value);
-        else
-        insertHelper(node->LeftChild, value);
+    Console.WriteLine( "CATÁLOGO DE REVISTAS");
+    Console.WriteLine("1. Buscar revista por título");
+    Console.WriteLine("2. Mostrar el resultado");
+    Console.WriteLine("3. Salir");
+// En la Consola de depuración sale la opción de colocar el numero para buscar o mostrar los títulos de revistas.
+    Console.Write("Eliga un a opción");
+// El dato primitivo permite leer la opcón ingresada.
+    string opcion = Console.ReadLine();
+// Al momento de seleccionar la opción la aplicación inicializará la búsqueda.
+    if opcion == ("1")
+{
+// Una vez ingresado el numero procederemos a ingresar el título de la revista
+    Console.Write ("Ingrese el título de la Revista de Catálogo");
+// Permite leer el título ingresado.
+    string titulo = Console  Write.ReadLine();
+// Permite realizar una búsqueda iterativa recorriendo el diccionario manualmente.
+    foreach (KeyValuePair<string, string>revista in catálogo)
+{
+// Permite la comparación del título con las palabras ingresadas
+if(revista.Key.Equals(titulo, StringComparasion.OrdinalIgnoreCase))
+{
+// Si el título existe mostrara encontrado
+    Console.WriteLine("Encontrado");
+// Permitira marcar como encontrado
+    encontrado = true;
+// Esta instrucción de flujo permitirá salir del bucle inmediatamente para evitar seguir buscando.
+    break;
     }
-    else
-    {
-     if (node->righChild==NULL)
-     node->righChild==new Node (value);
-     else
-     insertHelper(node->righChild, value); 
+
+}
+// Permite realizar una acción si una condición se cumple
+    if(!encontrado)
+{
+    Console.WriteLine(No encontrado);
     }
 }
-// Creamos un BST
-ArbolBinarioBusqueda arbol = new ArbolBinarioBusqueda();
-// ... (Insertar nodos en el árbol)
-// Buscar un valor
-bool encontrado = arbol.Buscar(10);
-if (encontrado)
-{
- Console.WriteLine("El valor se encontró en el árbol");
+// Si selecciono la opción 3 salimos del programa
+    else if(opcion == "3")
+    {
+        Console.WriteLine("Salir del programa");
+        break;
+     }
+  }
 }
-else
-{
- Console.WriteLine("El valor no se encontró en el árbol");
-}
-public class ArbolBinarioBusqueda
-{
- private Nodo raiz;
- public bool Buscar(int valor)
- {
- Nodo actual = raiz;
- while (actual != null)
- {
- if (valor == actual.Valor)
- {
- return true; // Valor encontrado
- }
- else if (valor < actual.Valor)
- {
- actual = actual.Izquierdo;
- }
- else
- {
- actual = actual.Derecho;
- }
- }
- return false; // Valor no encontrado
- }
-}
-// Creamos un BST
-ArbolBinarioBusqueda arbol = new ArbolBinarioBusqueda();
-// ... (Insertar nodos en el árbol)
-// Buscar un valor
-bool encontrado = arbol.Buscar(10);
-if (encontrado)
-{
- Console.WriteLine("El valor se encontró en el árbol");
-}
-else
-{
- Console.WriteLine("El valor no se encontró en el árbol");
-}
-public class ArbolBinarioBusqueda
-{
- private Nodo raiz;
- public int EncontrarMinimo()
- {
- Nodo actual = raiz;
- while (actual.Izquierdo != null)
- {
- actual = actual.Izquierdo;
- }
- return actual.Valor;
- }
-}
-// Creamos un BST
-ArbolBinarioBusqueda arbol = new ArbolBinarioBusqueda();
-// ... (Insertar nodos en el árbol)
-// Encontrar el mínimo
-int minimo = arbol.EncontrarMinimo();
-Console.WriteLine("El valor mínimo es: " + minimo);
-public class ArbolBinarioBusqueda
-{
- private Nodo raiz;
- public int EncontrarMaximo()
- {
- Nodo actual = raiz;
- while (actual.Derecho != null)
- {
- actual = actual.Derecho;
- }
- return actual.Valor;
- }
-}
-// Creamos un BST
-ArbolBinarioBusqueda arbol = new ArbolBinarioBusqueda();
-// ... (Insertar nodos en el árbol)
-// Encontrar el máximo
-int maximo = arbol.EncontrarMaximo();
-Console.WriteLine("El valor máximo es: " + maximo);
+
+
+
