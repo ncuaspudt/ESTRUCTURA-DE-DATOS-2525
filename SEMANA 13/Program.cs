@@ -4,12 +4,12 @@
 // Clase para iniciar el programa
 public class Catalogo
 {
-    // Método de clase
-    static void run ();
+    // Método principal
+   public static void Main ()
 
 {
     // Se crea un diccionario con 10 títulos de revistas de catálogo y una descripción
-    Dictionary<string, string>Catalogo= new Dictionary<string, string>();
+    Dictionary<string, string>catalogo= new Dictionary<string, string>();
 {
     {"SciELO", "Revista científicas de diferentes materias y áreas"},
     {"Biblat", "Revista de Ciencias Sociales de América Latina"},
