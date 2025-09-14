@@ -7,10 +7,11 @@ public class Catalogo
     // Método principal
    public static void Main ()
 
-{
+  {
     // Se crea un diccionario con 10 títulos de revistas de catálogo y una descripción
-    Dictionary<string, string>catalogo= new Dictionary<string, string>();
-{
+    Dictionary<string, string> catalogo = new Dictionary<string, string>()
+    {
+
     {"SciELO", "Revista científicas de diferentes materias y áreas"},
     {"Biblat", "Revista de Ciencias Sociales de América Latina"},
     {"Discover", "Revista popular de divulgación"},
@@ -23,7 +24,7 @@ public class Catalogo
     {"The Lancet", "Revistas médicas antiguas"},
 };
 // Este menú interactivo permitira vizualizar en la Consola de depuración
-While(true)
+While (true)
 {
     Console.WriteLine( "CATÁLOGO DE REVISTAS");
     Console.WriteLine("1. Buscar revista por título");
@@ -34,18 +35,19 @@ While(true)
 // El dato primitivo permite leer la opcón ingresada.
     string opcion = Console.ReadLine();
 // Al momento de seleccionar la opción la aplicación inicializará la búsqueda.
-    if opcion == ("1")
+    if (opcion == "1")
 {
 // Una vez ingresado el numero procederemos a ingresar el título de la revista
     Console.Write ("Ingrese el título de la Revista de Catálogo");
 // Permite leer el título ingresado.
-    string titulo = Console  Write.ReadLine();
+    string titulo = Console.ReadLine();
+    bool encontrado = false;
 // Permite realizar una búsqueda iterativa recorriendo el diccionario manualmente.
-    foreach (KeyValuePair<string, string>revista in catálogo)
+    foreach (KeyValuePair<string, string>revista in catalogo)
 {
 // Permite la comparación del título con las palabras ingresadas
-if(revista.Key.Equals(titulo, StringComparasion.OrdinalIgnoreCase))
-{
+if(revista.Key.Equals(titulo, StringComparison.OrdinalIgnoreCase))
+  {
 // Si el título existe mostrara encontrado
     Console.WriteLine("Encontrado");
 // Permitira marcar como encontrado
@@ -58,7 +60,7 @@ if(revista.Key.Equals(titulo, StringComparasion.OrdinalIgnoreCase))
 // Permite realizar una acción si una condición se cumple
     if(!encontrado)
 {
-    Console.WriteLine(No encontrado);
+    Console.WriteLine("No encontrado");
     }
 }
 // Si selecciono la opción 3 salimos del programa
@@ -68,7 +70,7 @@ if(revista.Key.Equals(titulo, StringComparasion.OrdinalIgnoreCase))
         break;
      }
   }
-}
+ }
 }
 
 
