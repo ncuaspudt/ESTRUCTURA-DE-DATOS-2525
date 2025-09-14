@@ -24,12 +24,11 @@ public class Catalogo
     {"The Lancet", "Revistas médicas antiguas"},
 };
 // Este menú interactivo permitira vizualizar en la Consola de depuración
-While (true)
+while (true)
 {
     Console.WriteLine( "CATÁLOGO DE REVISTAS");
     Console.WriteLine("1. Buscar revista por título");
-    Console.WriteLine("2. Mostrar el resultado");
-    Console.WriteLine("3. Salir");
+    Console.WriteLine("2. Salir");
 // En la Consola de depuración sale la opción de colocar el numero para buscar o mostrar los títulos de revistas.
     Console.Write("Eliga un a opción");
 // El dato primitivo permite leer la opcón ingresada.
@@ -38,7 +37,7 @@ While (true)
     if (opcion == "1")
 {
 // Una vez ingresado el numero procederemos a ingresar el título de la revista
-    Console.Write ("Ingrese el título de la Revista de Catálogo");
+    Console.Write ("Ingrese el título de la Revista de Catalogo");
 // Permite leer el título ingresado.
     string titulo = Console.ReadLine();
     bool encontrado = false;
@@ -64,7 +63,7 @@ if(revista.Key.Equals(titulo, StringComparison.OrdinalIgnoreCase))
     }
 }
 // Si selecciono la opción 3 salimos del programa
-    else if(opcion == "3")
+    else if(opcion == "2")
     {
         Console.WriteLine("Salir del programa");
         break;
