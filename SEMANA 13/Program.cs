@@ -1,5 +1,6 @@
 ﻿// Universidad Estatal Amazónica
 // Tarea semana 13
+// Aplicación de 10 titulos de revista de catálogo
 // Clase para iniciar el programa
 public class Catalogo
 {
@@ -68,6 +69,8 @@ if(revista.Key.Equals(titulo, StringComparasion.OrdinalIgnoreCase))
      }
   }
 }
+}
+
 
 
 
