@@ -1,6 +1,6 @@
 ﻿// Universidad Estatal Amazónica
 // Tarea semana 13
-// Aplicación de 10 titulos de revista de catálogo
+// Aplicación de 10 títulos de revista de catálogo
 // Clase para iniciar el programa
 public class Catalogo
 {
@@ -12,7 +12,7 @@ public class Catalogo
     Dictionary<string, string>Catalogo= new Dictionary<string, string>();
 {
     {"SciELO", "Revista científicas de diferentes materias y áreas"},
-    {"Biblat",l "Revista de Ciencias Sociales de América Latina"},
+    {"Biblat", "Revista de Ciencias Sociales de América Latina"},
     {"Discover", "Revista popular de divulgación"},
     {"Iconos", "Revista de Ciencias Sociales"},
     {"Alteridad", "Revista de Educación"},
