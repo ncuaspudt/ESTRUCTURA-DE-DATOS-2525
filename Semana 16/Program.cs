@@ -1,7 +1,7 @@
 ﻿/// Tarea semana 16 
-///Encuentro de vuelos baratos a partir de una base de datos
-
-Console.WriteLine("Universidad Estatal Amazónica");
+/// Encuentro de vuelos baratos a partir de una base de datos
+/// Clase vuelo
+class Vuelo
 
 {
 
@@ -23,8 +23,9 @@ Console.WriteLine("Universidad Estatal Amazónica");
     }
 }
 
-
+class Program
 {
+    // Método 
     static void Main()
     {
         // Grafo como diccionario: ciudad -> lista de vuelos
@@ -32,58 +33,59 @@ Console.WriteLine("Universidad Estatal Amazónica");
             new Dictionary<string, List<Vuelo>>();
 
         // Agregar vuelos (aristas del grafo)
-        grafo["CDMX"] = new System.Collections.Generic.List<Vuelo> {
-            new Vuelo("Cancún", 1500),
-            new Vuelo("Guadalajara", 1200),
-            new Vuelo("Monterrey", 1250)
+        grafo["CDMX"] = new List<Vuelo> {
+            new Vuelo("Quito", 1500),
+            new Vuelo("Santo Domingo", 1200),
+            new Vuelo("Manta", 1250)
         };
 
-        grafo["Cancún"] = new System.Collections.Generic.List<Vuelo> {
+        grafo["Quito"] = new List<Vuelo> {
             new Vuelo("CDMX", 1400),
-            new Vuelo("Guadalajara", 1800)
+            new Vuelo("Santo Domingo", 1800)
         };
 
-        grafo["Guadalajara"] = new System.Collections.Generic.List<Vuelo> {
-            new Vuelo("Monterrey", 1000)
+        grafo["Santo Domingo"] = new List<Vuelo> {
+            new Vuelo("Manta", 1000)
         };
 
-        grafo["Monterrey"] = new System.Collections.Generic.List<Vuelo> {
+        grafo["Santo Domingo"] = new List<Vuelo> {
             new Vuelo("CDMX", 1300),
-            new Vuelo("Cancún", 1600)
+            new Vuelo("Quito", 1600)
         };
 
-        System.Console.WriteLine("Aplicación: Vuelo más barato (con grafos)");
+        Console.WriteLine("Aplicación: Vuelo más barato");
 
         // Mostrar grafo
-        System.Console.WriteLine("\nVuelos disponibles:");
+        Console.WriteLine("\nVuelos disponibles:");
         foreach (string origen in grafo.Keys)
         {
-            System.Console.Write(origen + " -> ");
+            Console.Write(origen + " -> ");
             foreach (Vuelo v in grafo[origen])
             {
-                System.Console.Write(v.ToString() + ", ");
+                Console.Write(v.ToString() + ", ");
             }
-            System.Console.WriteLine();
+            Console.WriteLine();
         }
 
         // Consulta
-        System.Console.Write("\nIngresa ciudad origen: ");
-        string origenInput = System.Console.ReadLine().Trim();
+        Console.Write("Ingresa ciudad origen: ");
+        string origenInput = Console.ReadLine().Trim();
 
-        System.Console.Write("Ingresa ciudad destino: ");
-        string destinoInput = System.Console.ReadLine().Trim();
+        Console.Write("Ingresa ciudad destino: ");
+        string destinoInput = Console.ReadLine().Trim();
 
         if (grafo.ContainsKey(origenInput))
         {
-            System.Collections.Generic.List<Vuelo> vuelos = grafo[origenInput];
+            List<Vuelo> vuelos = grafo[origenInput];
             Vuelo masBarato = null;
-
+// Recorre la lista de vuelos
             foreach (Vuelo v in vuelos)
             {
                 if (v.Destino.ToLower() == destinoInput.ToLower())
                 {
                     if (masBarato == null || v.Precio < masBarato.Precio)
                     {
+                    // Se actualiza el vuelo más barato
                         masBarato = v;
                     }
                 }
@@ -91,16 +93,17 @@ Console.WriteLine("Universidad Estatal Amazónica");
 
             if (masBarato != null)
             {
-                System.Console.WriteLine("\nVuelo más barato: " + origenInput + " -> " + masBarato.ToString());
+            // Si encuentra el vuelo, aparece en la consola de depuración el vuelo más barato
+                Console.WriteLine("Vuelo más barato: " + origenInput + " -> " + masBarato.ToString());
             }
             else
             {
-                System.Console.WriteLine("\nNo hay vuelos directos de " + origenInput + " a " + destinoInput + ".");
+                Console.WriteLine("No hay vuelos directos de " + origenInput + " a " + destinoInput + ".");
             }
         }
         else
         {
-            System.Console.WriteLine("\nNo hay vuelos desde " + origenInput + ".");
+            Console.WriteLine("No hay vuelos desde " + origenInput + ".");
         }
     }
 }
