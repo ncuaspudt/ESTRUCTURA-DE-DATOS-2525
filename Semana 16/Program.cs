@@ -1,8 +1,14 @@
-﻿class Vuelo
+﻿/// Tarea semana 16 
+///Encuentro de vuelos baratos a partir de una base de datos
+
+Console.WriteLine("Universidad Estatal Amazónica");
+
 {
+
+// Atributos públicos: destino y precio del vuelo
     public string Destino;
     public double Precio;
-
+// Constructor
     public Vuelo(string destino, double precio)
     {
         Destino = destino;
@@ -10,22 +16,20 @@
     }
 
 
-
-
-
+// Método para mostrar el vuelo como texto
     public override string ToString()
     {
         return Destino + " ($" + Precio + ")";
     }
 }
 
-class Program
+
 {
     static void Main()
     {
         // Grafo como diccionario: ciudad -> lista de vuelos
-        System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<Vuelo>> grafo =
-            new System.Collections.Generic.Dictionary<string, System.Collections.Generic.List<Vuelo>>();
+        Dictionary<string, List<Vuelo>> grafo =
+            new Dictionary<string, List<Vuelo>>();
 
         // Agregar vuelos (aristas del grafo)
         grafo["CDMX"] = new System.Collections.Generic.List<Vuelo> {
